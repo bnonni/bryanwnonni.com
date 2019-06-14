@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Digital Ocean Ubuntu Server -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125543146-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
         function gtag() {
             dataLayer.push(arguments);
         }
@@ -58,30 +56,36 @@
 <body id="page-top">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Bryan W. Nonni</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="../index.html">Bryan W. Nonni</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fa fa-bars"></i>
           </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about">Why</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#download">What</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#contact">Who</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#map">Where</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="../index.html#about">Why</a>
+                        </li>
+                        <li class="nav-item">
+                                <div class="dropdown show">
+                                        <a class="btn btn-secondary dropdown-toggle nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding-top: 0.25rem; background-color: transparent;">What</a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                          <a class="dropdown-item" href="portfolio/what.html">Work</a>
+                                          <a class="dropdown-item" href="portfolio/school.html">School</a>
+                                        </div>
+                                      </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="../index.html#contact">Who</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="../index.html#map">Where</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
     <!-- Intro Header -->
     <header class="masthead">
@@ -129,8 +133,12 @@
     <section id="download" class="download-section content-section text-center">
         <div class="container">
             <div class="col-lg-8 mx-auto">
-                <h2>My Work</h2>
-                <a href="what.html" id="ga-what-click" class="btn btn-default btn-lg">Visit Work Page</a>
+                <h2>My Portfolio</h2>
+                <a href="./portfolio/what.html" id="ga-what-click" class="btn btn-default btn-lg">Visit Work Page</a>
+            </div>
+            <div class="col-lg-8 mx-auto">
+                <h2>My Resume</h2>
+                <a href="./portfolio/Bryan_W_Nonni_062019.pdf" id="ga-what-click" class="btn btn-default btn-lg">Download</a>
             </div>
         </div>
         <a href="#contact" class="btn btn-circle js-scroll-trigger">
@@ -183,21 +191,6 @@
             <!-- <a class="container text-center" href="clients.html">Client Portal</a> -->
         </div>
     </footer>
-
-    <!-- Firebase -->
-    <script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
-    <script>
-        // Initialize Firebase
-        var config = {
-            apiKey: "AIzaSyCeQCE6Tgyf84oMJOlhRlmoSeVcRewxH84",
-            authDomain: "bwnllc-85c50.firebaseapp.com",
-            databaseURL: "https://bwnllc-85c50.firebaseio.com",
-            projectId: "bwnllc-85c50",
-            storageBucket: "bwnllc-85c50.appspot.com",
-            messagingSenderId: "460816069527"
-        };
-        firebase.initializeApp(config);
-    </script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
