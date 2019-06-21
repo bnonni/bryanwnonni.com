@@ -177,6 +177,10 @@ tr:nth-child(odd) {
 
 /*All Lists Styles*/
 
+.lists-container-two .lists-two {
+    padding: 0 0 0 5%
+}
+
 .lists,
 .lists-two {
     margin: 0 auto;
