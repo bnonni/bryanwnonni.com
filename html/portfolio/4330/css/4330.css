@@ -143,37 +143,6 @@ tr:nth-child(odd) {
     background-color: black;
 }
 
-.asterick {
-    text-decoration: none !important;
-    color: rgb(10, 186, 139);
-    text-transform: none;
-    font-size: 18px;
-    margin-bottom: 1%;
-    position: relative;
-    display: inline-block;
-}
-
-.asterick .popup {
-    visibility: hidden;
-    width: 100%;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    bottom: 10px;
-    z-index: 1;
-}
-
-.asterick:hover .popup {
-    visibility: visible;
-    text-transform: none;
-    font-size: 12px;
-    color: rgb(10, 186, 139);
-    ;
-}
-
 
 /*All Lists Styles*/
 
@@ -188,47 +157,58 @@ tr:nth-child(odd) {
     display: inline-block;
 }
 
-.lists h5,
-.lists-two h5 {
+.lists li h5,
+.lists-two li h5 {
     text-transform: none;
     text-decoration: underline;
     font-size: 18px;
     text-align: left;
 }
 
+
+/* Lists Styles */
+
 .lists li {
     margin: 0 auto;
     padding: 0;
     padding-top: 0.5%;
-    list-style-type: none;
-    counter-increment: hobby-count;
     text-align: left;
+    list-style-type: none;
+}
+
+.lists li.list-item::before {
+    font-size: 14px;
+    text-transform: none;
+    content: "•"
 }
 
 .lists li a {
-    counter-reset: hobby-count;
     text-transform: none;
     font-size: 16px;
 }
 
-.lists li::before {
-    font-size: 14px;
-    text-transform: none;
-    content: counter(hobby-count, lower-alpha)". ";
-}
 
-
-/*Nested Lists Styles*/
+/* Nested Lists Styles */
 
 .lists-container-two {
     margin-top: 2%
 }
 
 .lists-two li {
+    list-style-type: none;
+}
+
+.lists-two li.edu-list-two-item {
     margin: 0 auto;
     padding: 0;
     padding-top: 0.5%;
     text-align: left;
+}
+
+.lists-two li.edu-list-two-item::before {
+    font-size: 14px;
+    text-transform: none;
+    content: "•"
 }
 
 .lists-two li a {
@@ -237,11 +217,18 @@ tr:nth-child(odd) {
 }
 
 #ordered-list {
-    margin-top: 3%
+    margin-top: 3%;
+    counter-reset: job-counter -1;
 }
 
-#ordered-list h5 {
-    margin-left: -8%;
+#ordered-list li {
+    counter-increment: job-counter;
+}
+
+#ordered-list li.ul-item::before {
+    font-size: 14px;
+    text-transform: none;
+    content: counter(job-counter) ". ";
 }
 
 footer {
