@@ -1,0 +1,216 @@
+/*recipe.html*/
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Century Gothic", "Futura", "Verdana", sans-serif;
+    position: relative;
+    color: black;
+    background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+a {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+#brand {
+    font-family: "Century Gothic", "Futura", "Verdana", sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    color: white;
+    float: left;
+    margin: 0 0 0 1%
+}
+
+.zone-1 {
+    margin-bottom: 0;
+    background-color: #863222;
+    font-size: 20px;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+
+.zone-1 h1,
+.zone-1 h3 {
+    font-family: "Century Gothic", "Futura", "Verdana", sans-serif;
+    margin: 0 auto;
+    width: 99%;
+    padding: 0.15% 0;
+    text-align: center;
+    color: #DB7F2A;
+    background-color: #F0F0F0;
+    margin-top: 1%;
+}
+
+.zone-1 a {
+    font-weight: 700;
+    color: #DB7F2A;
+}
+
+.zone-1 .navbar {
+    list-style-type: none;
+    text-align: left;
+    position: relative;
+    padding: 1%;
+    width: 50%;
+}
+
+.zone-1 .nav-item {
+    padding: 5px 0 0 0;
+    text-align: center;
+    text-transform: none;
+    width: 25%;
+    height: 35px;
+    background-color: #FFFFFF;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.zone-1 .nav-link span {
+    width: 5px;
+    height: 23px;
+    padding: 0px 15px 17px 0;
+    background-color: #DB7F2A;
+    float: right;
+    position: relative;
+    bottom: 5px;
+}
+
+div.zone-2>h4 {
+    margin-bottom: 1%
+}
+
+.zone-2 #pie-img-contain {
+    width: 15%;
+}
+
+.zone-2 #pie-img-contain img {
+    width: 100%;
+    margin-top: 2%
+}
+
+.zone-2 #cook-time {
+    font-weight: 100;
+}
+
+div.zone-2>p:nth-child(3) {
+    font-size: 14px;
+}
+
+.zone-2 .prep-cook,
+.zone-2 .prep-cook li {
+    padding: 0;
+    list-style-type: none;
+}
+
+.zone-2 ul.ingredients {
+    list-style-image: url(/4330/img/pie_icon.gif);
+    padding-left: 4%;
+}
+
+.zone-2>p:nth-child(8) {
+    font-weight: 800;
+}
+
+.zone-2 h2 {
+    font-family: "Century Gothic", "Futura", "Verdana", sans-serif;
+    margin-bottom: 1%;
+    font-weight: 800;
+    color: #9F9F02;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#list-item-no-style {
+    list-style-type: none;
+}
+
+.ordered-list {
+    padding-left: 3%;
+}
+
+.zone-2 ul.nested-list li {
+    list-style-type: none;
+}
+
+.zone-2 ul.nested-list {
+    list-style-image: url("/4330/img/pie_icon.gif");
+    padding-left: 3.7em;
+}
+
+li#reset::before {
+    content: "3. ";
+}
+
+li#reset {
+    list-style-type: none;
+    margin-left: -15px;
+}
+
+#reset .nested-list {
+    padding-left: 4.6em;
+}
+
+.zone-3 h2 {
+    margin: 2% 0 1% 0;
+}
+
+.zone-2 #cook-time {
+    font-weight: 800;
+}
+
+table {
+    font-family: "Century Gothic", "Futura", "Verdana", sans-serif;
+    background-color: #F0F0F0;
+    color: #FFFFFF;
+    width: 45%;
+    text-align: center;
+}
+
+tr {
+    font-family: "Century Gothic", "Futura", "Verdana", sans-serif;
+    background-color: #CC9933
+}
+
+th {
+    font-family: "Century Gothic", "Futura", "Verdana", sans-serif;
+    background-color: #003366;
+}
+
+tbody>* {
+    text-align: left;
+}
+
+@media(max-width: 850px) {
+    .zone-1 .nav-item .nav-link {
+        font-size: 0.7em;
+    }
+    .zone-1 .nav-link span {
+        width: 5%;
+        padding: 0px 10px 10px 0;
+        height: 30px;
+    }
+}

@@ -1,0 +1,25 @@
+.to-be-changed {
+    border: 5px blue solid;
+    background-color: white;
+    padding: 5%;
+    height: 100px;
+    width: 25%;
+}
+
+#five00[type=radio]:checked~.to-be-changed {
+    color: red;
+    zoom: 500%;
+    background-image: url(https://gastateparks.org/sites/default/files/parks/images/webmaps/webmap201903.png)
+}
+
+#one00[type=radio]:checked~.to-be-changed {
+    color: red;
+    zoom: 500%;
+    background-image: url(https://gastateparks.org/sites/default/files/parks/images/webmaps/webmap201903.png)
+}
+
+#five0[type=radio]:checked~.to-be-changed {
+    color: red;
+    zoom: 500%;
+    background-image: url(https://gastateparks.org/sites/default/files/parks/images/webmaps/webmap201903.png)
+}
