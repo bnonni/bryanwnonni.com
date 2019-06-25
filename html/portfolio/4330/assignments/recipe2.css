@@ -127,7 +127,7 @@ div.zone-2>p:nth-child(3) {
 }
 
 .zone-2 ul.ingredients {
-    list-style-image: url(/4330/img/pie_icon.gif);
+    list-style-image: url(../img/pie_icon.gif);
     padding-left: 4%;
 }
 
@@ -157,7 +157,7 @@ div.zone-2>p:nth-child(3) {
 }
 
 .zone-2 ul.nested-list {
-    list-style-image: url("/4330/img/pie_icon.gif");
+    list-style-image: url("../img/pie_icon.gif");
     padding-left: 3.7em;
 }
 
