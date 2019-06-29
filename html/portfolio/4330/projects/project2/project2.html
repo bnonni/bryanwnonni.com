@@ -7,10 +7,13 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125543146-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
+        var page = window.location.href;
 
         function gtag() {
             dataLayer.push(arguments);
+
         }
+        gtag(page, new Date());
         gtag("js", new Date());
         gtag("config", "UA-125543146-1");
     </script>

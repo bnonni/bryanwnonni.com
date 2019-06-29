@@ -1,15 +1,17 @@
 /*What.html*/
-#dropdownMenuLink{
+
+#dropdownMenuLink {
     border: none !important;
     box-shadow: none !important;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     background-color: #545B62;
     border: none;
+    width: 23%;
 }
 
-.dropdown-item:hover{
+.dropdown-item:hover {
     color: black !important;
 }
 
@@ -39,11 +41,11 @@
     }
 }
 
-#headshot{
+#headshot {
     width: 40%;
 }
 
-ul.list-inline.banner-social-buttons li{
+ul.list-inline.banner-social-buttons li {
     margin: 2%;
 }
 
@@ -174,7 +176,7 @@ img.made-image {
     width: 20%;
 }
 
-img.cprog-image{
+img.cprog-image {
     float: left;
     position: relative;
     left: 3em;
@@ -201,16 +203,16 @@ img.pbs-image {
     width: 30%;
 }
 
-div#java-inner{
+div#java-inner {
     padding: 3% 0 3% 0;
 }
 
-#java-inner div{
+#java-inner div {
     padding: 3px;
     font-size: 16px;
 }
 
-img.java-image{
+img.java-image {
     float: right;
     position: relative;
     bottom: 28em;

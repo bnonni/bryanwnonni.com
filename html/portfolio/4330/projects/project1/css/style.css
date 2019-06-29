@@ -14,7 +14,7 @@ body {
 }
 
 div.georgia {
-    background: url(/icons/georgia-clipart.gif);
+    background: url(../images/georgia-clipart.gif);
     background-repeat: no-repeat;
     background-size: 800px;
     text-align: center;
@@ -423,6 +423,7 @@ div#savannah {
     background-image: url(../images/1024x683/savannah.jpg);
     bottom: 23em;
     right: 34em;
+    background-size: 107% 100%;
 }
 
 
