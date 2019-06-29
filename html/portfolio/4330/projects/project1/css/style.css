@@ -1,3 +1,12 @@
+#brand {
+    color:white;
+    float: left;
+    background-color: black;
+    padding: 8px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
 body {
     font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     position: relative;
@@ -183,11 +192,6 @@ div#rtm-icon img:hover~div#red-top-mtn {
     width: 550px;
     z-index: 10;
 }
-
-
-/* ul#show-rtm {
- top: 22em;
-} */
 
 
 /*----------Lake Lanier----------*/
