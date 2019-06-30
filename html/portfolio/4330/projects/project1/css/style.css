@@ -18,18 +18,15 @@ body {
     margin-top: 1.5em;
 }
 
-.click {
-    color: green;
-}
-
 div.georgia {
-    background: url(../images/georgia-clipart.gif);
-    background-repeat: no-repeat;
-    background-size: 800px;
     text-align: center;
     margin-left: 22em;
     width: 1000px;
     height: 900px;
+}
+
+.click {
+    color: green;
 }
 
 div.expand {
@@ -280,7 +277,7 @@ div#aug-icon {
 
 div#augusta {
     background-color: #FBE203;
-    background-image: url(../images/1024x683/augusta.jpeg);
+    background-image: url(../images/1024x683/augusta.jpg);
     bottom: 19em;
     left: 5em;
 }
