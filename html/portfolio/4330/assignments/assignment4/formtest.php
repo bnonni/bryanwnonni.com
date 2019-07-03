@@ -33,9 +33,10 @@
     foreach($_POST as $key=>$val)
     {
       print "<p>$key = $val\n</p>";
-      foreach($_POST['options'] as $option){
-        print "<p>$option\n</p>";
-      }
+      
+        foreach($_POST['options'] as $option){
+          print "<p>option = $option\n</p>";
+        }
     }
 ?>
 
