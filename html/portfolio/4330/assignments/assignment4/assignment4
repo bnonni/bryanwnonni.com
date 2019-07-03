@@ -48,7 +48,9 @@
 
 <body>
     <div class="page-top">
-        Coming Soon!
+        <?php 
+        echo 
+        >
     </div>
 </body>
 
