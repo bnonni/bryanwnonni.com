@@ -32,13 +32,12 @@
 <?php
     foreach($_POST as $key=>$val)
     {
-      if($_POST["options"]){
-        foreach($_POST["options"] as $key=>$val){
-          print "<p>$key = $val\n</p>";
+        foreach($_POST['options'] as $option){
+          print "<p>$option\n</p>";
         }
-      }else{
+     
         print "<p>$key = $val\n</p>";
-      }
+     
     }
 ?>
 
