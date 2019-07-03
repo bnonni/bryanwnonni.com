@@ -33,7 +33,7 @@
     foreach($_POST as $key=>$val)
     {
       if($_POST["options"]){
-        foreach($_POST as $key=>$val){
+        foreach($_POST["options"] as $key=>$val){
           print "<p>$key = $val\n</p>";
         }
       }else{
