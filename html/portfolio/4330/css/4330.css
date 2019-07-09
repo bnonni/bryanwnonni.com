@@ -286,14 +286,8 @@ img::-moz-selection {
     position: absolute;
     left: 0;
     top: 1em;
-}
-
-#return span {
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    padding: 0.5em;
-    border-radius: 5px;
-    font-size: 1rem;
+    color: white;
     background-color: transparent;
+    border-radius: 5px;
+    padding: 5px 0.5em 5px 0.5em;
 }
