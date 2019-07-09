@@ -6,13 +6,14 @@
      $random = rand(0, 1);
      return $random === 1 ? "Charlie ate my lunch!" : "Not THIS time, Charlie!";
     }
+    $ate = isBitten();
 ?>
 <head>
-  <title><?php echo isBitten() ?></title>
+  <title><?php echo $ate; ?></title>
 </head>
 <body>
   <div>
-    <?php echo isBitten();?>
+    <?php echo $ate;?>
   </div>
 </body>
 </html>
