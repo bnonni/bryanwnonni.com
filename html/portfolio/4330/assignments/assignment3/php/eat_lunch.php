@@ -41,11 +41,11 @@
   <link href="https://fonts.googleapis.com/css?family=Cabin:700" rel="stylesheet" type="text/css">
   <!-- Import CSS -->
   <link href="../css/php.css" rel="stylesheet" type="text/css">
-  <title><?php echo `Result: {$ate}`; ?></title>
+  <title><?php echo $ate; ?></title>
 </head>
 <body>
   <div>
-    <?php echo `Result: {$ate}`;?>
+    <?php echo $ate;?>
   </div>
 </body>
 </html>
