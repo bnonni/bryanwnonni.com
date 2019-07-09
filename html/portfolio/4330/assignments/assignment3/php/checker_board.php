@@ -34,7 +34,7 @@
   <link href="https://fonts.googleapis.com/css?family=Cabin:700" rel="stylesheet" type="text/css">
   <!-- Import CSS -->
   <!-- <link href="../css/php.css" rel="stylesheet" type="text/css"> -->
-  <title>Assignment 3 | Checker Board, PHP | Georgia State, Web Programming<title>
+  <title>Assignment 3 | Checker Board, PHP | Georgia State, Web Programming</title>
 </head>
 <body>
  <h2> CheckerBoard! Who wants to play!?</h2>
