@@ -75,8 +75,9 @@ ul {
 
 table.restaurants {
     background-color: #2F2F2F;
+    margin: 0 auto;
 }
 
-table.restaurants tr:nth-child(odd) {
+table.restaurants tr:nth-child(even) {
     background-color: #99CC98;
 }
