@@ -46,7 +46,7 @@ a:hover {
     outline: none;
     background-color: #0138A6;
     border-radius: 5px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .page-top {
