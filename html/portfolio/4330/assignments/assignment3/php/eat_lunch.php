@@ -35,23 +35,22 @@
   <!-- Import CSS -->
   <link href="../css/php.css" rel="stylesheet" type="text/css">
 
-  <!-- PHP Function -->
+  <!-- PHP Function isBitten()-->
   <?php
-    function isBitten(){
-     $random = rand(0, 1);
-     return $random === 1 ? "Yes, Charlie ate my lunch!" : "No, Charlie did not eat my lunch!";
-    }
-    $ate = isBitten();
+    $isBitten = (function (){
+      $random = rand(0, 1);
+      return $random === 1 ? "Yes, Charlie ate my lunch!" : "No, Charlie did not eat my lunch!";
+     })();
   ?>
   <!-- Dynamic Title -->
-  <title><?php echo $ate; ?>| Assignment 3, Part 1, PHP | Georgia State, Web Programming</title>
+  <title><?php echo $isBitten; ?>| Assignment 3, Part 1, PHP | Georgia State, Web Programming</title>
 </head>
 <body>
   <div>
     <a id="return" href="../assignment3.html">
       <button>Back</button>
     </a>
-    <?php echo $ate;?>
+    <?php echo $isBitten;?>
   </div>
 </body>
 </html>

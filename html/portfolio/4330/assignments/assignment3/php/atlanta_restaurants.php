@@ -34,33 +34,25 @@
   <link href="https://fonts.googleapis.com/css?family=Cabin:700" rel="stylesheet" type="text/css">
   <!-- Import CSS -->
   <link href="../css/php.css" rel="stylesheet" type="text/css">
-  <title>Assignment 3, Part 2 | Checker Board, PHP | Georgia State, Web Programming</title>
+  <title>Assignment 3, Part 4 | Atlanta's Best Restaurants, PHP | Georgia State, Web Programming</title>
 </head>
 <body>
-<a id="return" href="../assignment3.html">
+ <a id="return" href="../assignment3.html">
    <button>Back</button>
  </a>
  <div id="main-contain">
-  <h2> Welcome to Checkers!</h2>
-  <table class="checkerboard" width="300px" cellspacing="1px" cellpadding="1px" tableborder="1px">
+  <h2>Atlanta's 10 Best Restaurants!</h2>
+  <table class="restaurants" width="300px" cellspacing="1px" cellpadding="1px" tableborder="1px">
    <?php
-   (function(){
-    for($i = 1; $i <= 8; $i++){
-     print "<tr>";
-     for($j = 1; $j <= 8; $j++){
-      $cell = $i + $j;
-      if($cell % 2 === 0){
-       print "<td height=35px width=35px bgcolor=#ff0000><svg height='100' width='100'><circle cx='50' cy='50' r='30' stroke='white' stroke-width='1' fill='black' /></svg></td>";    
-      }
-      else{
-       print "<td height=35px width=35px bgcolor=#000000><svg height='100' width='100'><circle cx='50' cy='50' r='30' stroke='white' stroke-width='1' fill='red' /></svg></td>";
-      }
+     $atlanta = array ( "Chama Gaucha" => 40.50, "Aviva by Kameel" => 15.00, "Bone’s Restaurant" => 65.00, "Umi Sushi Buckhead" => 40.50, "Fandangles" => 30.00, "Capital Grille" => 60.50, "Canoe" => 35.50, "One Flew South" => 21.00,"Fox Bros. BBQ" => 15.00, "South City Kitchen Midtown" => 29.00);
+     print "<tr>";   
+     foreach ($atlanta as $key => $val) {
+      print "<td>$key</td>";
+      print "<td>$val/<td>";    
+      print "</tr>";
      }
-     print "</tr>";
-    }
-   })()
-   ?>
-    </table>
+    ?>
+   </table>
  </div>
 </body>
 </html>
