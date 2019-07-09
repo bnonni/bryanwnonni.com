@@ -61,7 +61,7 @@
      "<table class='restaurants' width='300px' cellspacing='1px' cellpadding='1px' border='1px'>
      <tbody>
      <tr>
-        <th colspan='2'>No Order</th>
+        <th class='title' colspan='2'>No Order</th>
     </tr> 
      <tr>
         <th>Restaurant</th>
@@ -81,7 +81,7 @@
     "<table class='restaurants' width='300px' cellspacing='1px' cellpadding='1px' border='1px'>
     <tbody>
     <tr>
-      <th colspan='2'>Ordered by Restaurant</th>
+      <th class='title' colspan='2'>Ordered by Restaurant</th>
     </tr> 
     <tr>
        <th>Restaurant</th>
@@ -101,7 +101,7 @@
     "<table class='restaurants' width='300px' cellspacing='1px' cellpadding='1px' border='1px'>
     <tbody>
     <tr>
-       <th colspan='2'>Ordered by Average Cost</th>
+      <th class='title' colspan='2'>Ordered by Average Cost</th>
     </tr> 
     <tr>
        <th>Restaurant</th>
