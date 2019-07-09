@@ -47,6 +47,7 @@ span {
 #return {
     position: absolute;
     left: 0;
+    top: 1em;
 }
 
 a {
