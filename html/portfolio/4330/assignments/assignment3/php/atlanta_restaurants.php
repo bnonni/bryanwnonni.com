@@ -60,7 +60,7 @@
      echo 
      "<table class='restaurants' width='300px' cellspacing='1px' cellpadding='1px' border='1px'>
      <tbody>
-     <tr>
+     <tr colspan=2>
         <th>No Order</th>
     </tr> 
      <tr>
@@ -80,7 +80,7 @@
     echo 
     "<table class='restaurants' width='300px' cellspacing='1px' cellpadding='1px' border='1px'>
     <tbody>
-    <tr>
+    <tr colspan=2>
        <th>Ordered by Restaurant</th>
     </tr> 
     <tr>
@@ -100,7 +100,7 @@
     echo 
     "<table class='restaurants' width='300px' cellspacing='1px' cellpadding='1px' border='1px'>
     <tbody>
-    <tr>
+    <tr colspan=2>
        <th>Ordered by Average Cost</th>
     </tr> 
     <tr>
