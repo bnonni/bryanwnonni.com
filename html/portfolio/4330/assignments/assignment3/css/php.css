@@ -32,9 +32,11 @@ p {
     margin: 0;
 }
 
-button {
-    width: 50%;
-    height: 50%;
+.page-top button {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 1%;
+    font-size: 1rem;
 }
 
 
