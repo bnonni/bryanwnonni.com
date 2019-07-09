@@ -51,5 +51,8 @@
   <a class="return" href="../">Go Back</a>
     <?php echo $ate;?>
   </div>
+  <a href="../assignment3.html">
+   <button><-- Back</button>
+ </a>
 </body>
 </html>

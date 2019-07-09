@@ -60,3 +60,7 @@ button:hover {
     font-weight: 700;
     color: white;
 }
+
+ul {
+    list-style-type: none;
+}

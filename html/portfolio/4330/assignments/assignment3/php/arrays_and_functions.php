@@ -38,7 +38,6 @@
 </head>
 <body>
  <div id="main-contain">
-  <a class="return" href="../">Go Back</a>
   <h2>Arrays and Functions!</h2>
   <?php
    $months = array ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
@@ -78,5 +77,8 @@
    echo "<br>";
   ?>
  </div>
+ <a href="../assignment3.html">
+   <button><-- Back</button>
+ </a>
 </body>
 </html>

@@ -38,7 +38,6 @@
 </head>
 <body>
  <div id="main-contain">
- <a class="return" href="../">Go Back</a>
   <h2> Welcome to Checkers!</h2>
   <table class="checkerboard" width="300px" cellspacing="1px" cellpadding="1px" tableborder="1px">
    <?php
@@ -60,5 +59,8 @@
    ?>
   </table>
  </div>
+ <a href="../assignment3.html">
+   <button><-- Back</button>
+ </a>
 </body>
 </html>
