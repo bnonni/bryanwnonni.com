@@ -46,7 +46,7 @@
    echo "<p>1) Print months in order using for loop.</p>\n";
    echo "<ul>";
    for($i = 0; $i < sizeof($months); $i++){
-    echo `<li>$months[$i] \n</li>`;
+    echo "<li>$months[$i]</li>"."\n";
    }
    echo "</ul>";
    echo "<br>";
@@ -54,7 +54,7 @@
    sort($months);
    echo "<ul>";
    for($j = 0; $j < sizeof($months); $j++){
-      echo `<li>$months[$j] \n</li>`;
+      echo "<li>$months[$j]</li>"."\n";
    }
    echo "</ul>";
    echo "<br>";
@@ -64,14 +64,14 @@
    echo "</p>3.1) Print months in order using forEach loop.</p>\n";
    echo "<ul>";
    foreach ($unsorted as $key => $val) {
-      echo `<li>{$key} => $val \n</li>`;
+      echo "<li>{$key} => $val</li>"."\n";
    }
    echo "</ul>";
    echo "<br>";
    echo "3.2) Sort months and print in order using forEach loop.\n";
    echo "<ul>";
    foreach ($months as $key => $val) {
-      echo `<li>{$key} => $val \n</li>`;
+    echo "<li>{$key} => $val</li>"."\n";
    }
    echo "</ul>";
    echo "<br>";
