@@ -38,7 +38,7 @@
 </head>
 <body>
 <a id="return" href="../assignment3.html">
-   <button>Back</button>
+   <span>Back</span>
  </a>
  <div id="main-contain">
   <h2> Welcome to Checkers!</h2>

@@ -37,8 +37,8 @@
   <title>Assignment 3, Part 4 | Atlanta's Best Restaurants, PHP | Georgia State, Web Programming</title>
 </head>
 <body>
- <a id="return" href="../assignment3.html">
-   <button>Back</button>
+<a id="return" href="../assignment3.html">
+   <span>Back</span>
  </a>
  <div id="main-contain">
   <h2>Atlanta's 10 Best Restaurants!</h2>

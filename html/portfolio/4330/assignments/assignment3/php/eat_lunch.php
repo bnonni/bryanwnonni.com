@@ -48,7 +48,7 @@
 <body>
   <div>
     <a id="return" href="../assignment3.html">
-      <button>Back</button>
+      <span>Back</span>
     </a>
     <?php echo $isBitten;?>
   </div>
