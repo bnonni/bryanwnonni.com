@@ -45,12 +45,11 @@
       for($j = 1; $j <= 8; $j++){
        $cell = $i + $j;
        if($cell % 2 === 0){
-        print "<td height=35px width=35px bgcolor=#ff0000></td>";
-        print "<svg height='100' width='100'><circle cx='50' cy='50' r='40' fill='black' /></svg>";
+        print "<td height=35px width=35px bgcolor=#ff0000><svg height='100' width='100'><circle cx='50' cy='50' r='10' fill='black' /></svg>;</td>";
+        
        }
        else{
-        print "<td height=35px width=35px bgcolor=#000000></td>";
-        print "<svg height='100' width='100'><circle cx='50' cy='50' r='40' fill='red' /></svg>";
+        print "<td height=35px width=35px bgcolor=#000000><svg height='100' width='100'><circle cx='50' cy='50' r='10' fill='red' /></svg></td>";
        }
       }
       print "</tr>";
