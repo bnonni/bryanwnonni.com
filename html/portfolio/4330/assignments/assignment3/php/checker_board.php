@@ -37,24 +37,25 @@
   <title>Assignment 3 | Checker Board, PHP | Georgia State, Web Programming</title>
 </head>
 <body>
- <h2> Welcome to Checkers!</h2>
- <table width="300px" cellspacing="1px" cellpadding="1px" border="1px">
-  <?php
-     for($i = 1; $i <= 8; $i++){
-      print "<tr>";
-      for($j = 1; $j <= 8; $j++){
-       $cell = $i + $j;
-       if($cell % 2 === 0){
-        print "<td height=35px width=35px bgcolor=#ff0000><svg height='100' width='100'><circle cx='50' cy='50' r='30' stroke='white' stroke-width='1' fill='black' /></svg></td>";
-        
-       }
-       else{
-        print "<td height=35px width=35px bgcolor=#000000><svg height='100' width='100'><circle cx='50' cy='50' r='30' stroke='white' stroke-width='1' fill='red' /></svg></td>";
-       }
+ <div id="main-contain">
+  <h2> Welcome to Checkers!</h2>
+  <table class="checkerboard" width="300px" cellspacing="1px" cellpadding="1px" border="1px">
+   <?php
+    for($i = 1; $i <= 8; $i++){
+     print "<tr>";
+     for($j = 1; $j <= 8; $j++){
+      $cell = $i + $j;
+      if($cell % 2 === 0){
+       print "<td height=35px width=35px bgcolor=#ff0000><svg height='100' width='100'><circle cx='50' cy='50' r='30' stroke='white' stroke-width='1' fill='black' /></svg></td>";    
       }
-      print "</tr>";
+      else{
+       print "<td height=35px width=35px bgcolor=#000000><svg height='100' width='100'><circle cx='50' cy='50' r='30' stroke='white' stroke-width='1' fill='red' /></svg></td>";
+      }
      }
-  ?>
-</table>
+     print "</tr>";
+    }
+   ?>
+  </table>
+ </div>
 </body>
 </html>

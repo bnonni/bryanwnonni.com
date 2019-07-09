@@ -65,6 +65,10 @@ a:hover {
     font-size: 20px;
 }
 
+.checkerboard {
+    margin: 0 auto;
+}
+
 #brand {
     font-size: 25px;
     font-weight: 700;
