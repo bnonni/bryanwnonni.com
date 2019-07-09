@@ -29,18 +29,29 @@
   <meta name="theme-color" content="#ffffff">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Checker Board | PHP | Georgia State, Web Programming<title>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Cabin:700" rel="stylesheet" type="text/css">
   <!-- Import CSS -->
   <link href="../css/php.css" rel="stylesheet" type="text/css">
-  <title><?php echo $ate; ?></title>
+  <title>Assignment 3 | Checker Board, PHP | Georgia State, Web Programming<title>
 </head>
-<body class="page-top">
-  <div><?php echo $ate;?></div>
+<body>
+ <h2> CheckerBoard! Who wants to play!?</h2>
+ <table width="300px" cellspacing="1px" cellpadding="1px" tableborder="1px">
   <?php
-    function checkerBoard(){}  
-?>
+    (function (){
+     for($i = 1; $i <= 8; $i++){
+      echo "<tr>";
+      for($j = 1; $j <= 8; $j++){
+       if($j % 2 == 0)
+        echo "<td height=35px width=35px bgcolor=#ff0000></td>";
+       else
+        echo "<td height=35px width=35px bgcolor=#000000></td>";
+      }
+     }
+    })();
+  ?>
+</table>
 </body>
 </html>

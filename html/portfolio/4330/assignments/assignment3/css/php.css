@@ -32,7 +32,7 @@ p {
     margin: 0;
 }
 
-.page-top button {
+.part-one button {
     padding: 10px;
     border-radius: 5px;
     margin-top: 1%;
@@ -57,7 +57,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.page-top {
+.part-one {
     font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin-bottom: 0;
     text-transform: uppercase;
@@ -72,7 +72,7 @@ a:hover {
 }
 
 @media (min-width: 992px) {
-    .page-top {
+    .part-one {
         padding-top: 20px;
         padding-bottom: 20px;
         letter-spacing: 1px;
