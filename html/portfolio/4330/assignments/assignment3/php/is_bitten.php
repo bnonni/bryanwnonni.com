@@ -53,7 +53,7 @@
     <?php 
       echo "<p>$isBitten</p>";
     ?>
-    <a id="refresh" href="#" onclick="window.location.reload();">
+    <a id="refresh" value="Refresh Page" href="#" onclick="window.location.reload();">
       <span>Refresh for New Response!</span>
     </a>
   </div>
