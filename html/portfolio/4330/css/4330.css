@@ -297,6 +297,5 @@ img::-moz-selection {
     color: white;
     outline: none;
     background-color: #0138A6;
-    border-radius: 5px;
     text-decoration: none;
 }
