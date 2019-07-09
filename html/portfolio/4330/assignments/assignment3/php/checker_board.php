@@ -33,11 +33,11 @@
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Cabin:700" rel="stylesheet" type="text/css">
   <!-- Import CSS -->
-  <link href="../css/php.css" rel="stylesheet" type="text/css">
+  <!-- <link href="../css/php.css" rel="stylesheet" type="text/css"> -->
   <title>Assignment 3 | Checker Board, PHP | Georgia State, Web Programming</title>
 </head>
 <body>
- <h2> CheckerBoard! Who wants to play!?</h2>
+ <h2> Welcome to Checkers!</h2>
  <table width="300px" cellspacing="1px" cellpadding="1px" border="1px">
   <?php
      for($i = 1; $i <= 8; $i++){
