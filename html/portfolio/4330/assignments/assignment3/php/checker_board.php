@@ -60,7 +60,7 @@
   </table>
  </div>
  <a href="../assignment3.html">
-   <button><-- Back</button>
+   <button>Back</button>
  </a>
 </body>
 </html>

@@ -43,14 +43,14 @@
    $months = array ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
    $unsorted = $months;
 
-   echo "<p>1) Print months in order using for loop.</p>\n";
+   echo "<h4>1) Print months in order using for loop.</h4>\n";
    echo "<ul>";
    for($i = 0; $i < sizeof($months); $i++){
     echo "<li>$months[$i]</li>"."\n";
    }
    echo "</ul>";
    echo "<br>";
-   echo "</p>2) Sort months in alphabetical order then print them.</p>\n";
+   echo "<h4>2) Sort months in alphabetical order then print them.</h4>\n";
    sort($months);
    echo "<ul>";
    for($j = 0; $j < sizeof($months); $j++){
@@ -60,8 +60,8 @@
    echo "<br>";
 
    
-   echo "</p>3) Repeat steps 1 & 2 using forEach loop.</p>\n";
-   echo "</p>3.1) Print months in order using forEach loop.</p>\n";
+   echo "<h4>3) Repeat steps 1 & 2 using forEach loop.</h4>\n";
+   echo "<h4>3.1) Print months in order using forEach loop.</h4>\n";
    echo "<ul>";
    foreach ($unsorted as $key => $val) {
       echo "<li>{$key} => $val</li>"."\n";
@@ -78,7 +78,7 @@
   ?>
  </div>
  <a href="../assignment3.html">
-   <button><-- Back</button>
+   <button>Back</button>
  </a>
 </body>
 </html>
