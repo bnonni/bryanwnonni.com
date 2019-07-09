@@ -41,11 +41,11 @@
   <link href="https://fonts.googleapis.com/css?family=Cabin:700" rel="stylesheet" type="text/css">
   <!-- Import CSS -->
   <link href="../css/php.css" rel="stylesheet" type="text/css">
-  <title><?php echo "Yes. " + $ate; ?></title>
+  <title><?php echo `Yes. {$ate}`; ?></title>
 </head>
 <body>
   <div>
-    <?php echo "Charlie did not eat my lunch! " + $ate;?>
+    <?php echo `Charlie did not eat my lunch! {$ate}`;?>
   </div>
 </body>
 </html>
