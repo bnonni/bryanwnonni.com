@@ -31,7 +31,7 @@
 <?php
     function isBitten(){
      $random = rand(0, 1);
-     return $random === 1 ? "Charlie ate my lunch!" : "Not THIS time, Charlie!";
+     return $random === 1 ? "Yes, Charlie ate my lunch!" : "No, Charlie did not eat my lunch!";
     }
     $ate = isBitten();
 ?>
@@ -41,13 +41,11 @@
   <link href="https://fonts.googleapis.com/css?family=Cabin:700" rel="stylesheet" type="text/css">
   <!-- Import CSS -->
   <link href="../css/php.css" rel="stylesheet" type="text/css">
-  <title>
-    <?php if($random === 1) echo `Yes. $ate}`;else echo `Charlie did not eat my lunch! {$ate}`;?>
-    </title>
+  <title><?php echo `Result: {$ate}`; ?></title>
 </head>
 <body>
   <div>
-    <?php if($random === 1) echo `Yes. $ate}`;else echo `Charlie did not eat my lunch! {$ate}`;?>
+    <?php echo `Result: {$ate}`;?>
   </div>
 </body>
 </html>
