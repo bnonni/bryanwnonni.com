@@ -40,7 +40,6 @@
  <h2> CheckerBoard! Who wants to play!?</h2>
  <table width="300px" cellspacing="1px" cellpadding="1px" tableborder="1px">
   <?php
-    (function (){
      for($i = 1; $i <= 8; $i++){
       echo "<tr>";
       for($j = 1; $j <= 8; $j++){
@@ -50,7 +49,6 @@
         echo "<td height=35px width=35px bgcolor=#000000></td>";
       }
      }
-    })();
   ?>
 </table>
 </body>
