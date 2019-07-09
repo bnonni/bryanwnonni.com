@@ -51,6 +51,7 @@
         echo "<td height=35px width=35px bgcolor=#000000></td>";
        }
       }
+      echo "</tr>";
      }
   ?>
 </table>
