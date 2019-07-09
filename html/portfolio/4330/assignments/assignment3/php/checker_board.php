@@ -38,7 +38,7 @@
 </head>
 <body>
  <h2> CheckerBoard! Who wants to play!?</h2>
- <table width="300px" cellspacing="1px" cellpadding="1px" tableborder="1px">
+ <table width="300px" cellspacing="1px" cellpadding="1px" border="1px">
   <?php
      for($i = 1; $i <= 8; $i++){
       echo "<tr>";
