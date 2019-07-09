@@ -47,12 +47,12 @@
   <title><?php echo $ate; ?>| Assignment 3, Part 1, PHP | Georgia State, Web Programming</title>
 </head>
 <body>
+<a href="../assignment3.html">
+   <button>Back</button>
+ </a>
   <div>
   <a class="return" href="../">Go Back</a>
     <?php echo $ate;?>
   </div>
-  <a href="../assignment3.html">
-   <button>Back</button>
- </a>
 </body>
 </html>

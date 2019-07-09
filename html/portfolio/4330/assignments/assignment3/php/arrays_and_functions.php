@@ -37,6 +37,9 @@
   <title>Assignment 3, Part 3 | Arrays & Functions, PHP | Georgia State, Web Programming</title>
 </head>
 <body>
+<a href="../assignment3.html">
+   <button>Back</button>
+ </a>
  <div id="main-contain">
   <h2>Arrays and Functions!</h2>
   <?php
@@ -77,8 +80,5 @@
    echo "<br>";
   ?>
  </div>
- <a href="../assignment3.html">
-   <button>Back</button>
- </a>
 </body>
 </html>

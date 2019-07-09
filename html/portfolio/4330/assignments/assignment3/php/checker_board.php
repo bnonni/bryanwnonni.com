@@ -37,6 +37,9 @@
   <title>Assignment 3, Part 2 | Checker Board, PHP | Georgia State, Web Programming</title>
 </head>
 <body>
+<a href="../assignment3.html">
+   <button>Back</button>
+ </a>
  <div id="main-contain">
   <h2> Welcome to Checkers!</h2>
   <table class="checkerboard" width="300px" cellspacing="1px" cellpadding="1px" tableborder="1px">
@@ -59,8 +62,5 @@
    ?>
   </table>
  </div>
- <a href="../assignment3.html">
-   <button>Back</button>
- </a>
 </body>
 </html>
