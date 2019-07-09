@@ -39,13 +39,13 @@ button {
 }
 
 
-/* Alt color: #E34C26 */
+/* Alt color:  */
 
 a {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    color: #4F5D95;
+    color: #E34C26;
     text-decoration: none;
 }
 
@@ -54,6 +54,7 @@ a:hover {
     outline: none;
     border-radius: 5px;
     text-decoration: underline;
+    color: #4F5D95;
 }
 
 .checkerboard {
