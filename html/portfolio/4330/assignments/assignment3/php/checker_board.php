@@ -33,7 +33,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Cabin:700" rel="stylesheet" type="text/css">
   <!-- Import CSS -->
-  <link href="../css/php.css" rel="stylesheet" type="text/css">
+  <!-- <link href="../css/php.css" rel="stylesheet" type="text/css"> -->
   <title>Assignment 3 | Checker Board, PHP | Georgia State, Web Programming<title>
 </head>
 <body>
@@ -41,17 +41,17 @@
  <table width="300px" cellspacing="1px" cellpadding="1px" border="1px">
   <?php
      for($i = 1; $i <= 8; $i++){
-      echo "<tr>";
+      print "<tr>";
       for($j = 1; $j <= 8; $j++){
        $cell = $i + $j;
        if($cell % 2 === 0){
-        echo "<td height=35px width=35px bgcolor=#ff0000></td>";
+        print "<td height=35px width=35px bgcolor=#ff0000></td>";
        }
        else{
-        echo "<td height=35px width=35px bgcolor=#000000></td>";
+        print "<td height=35px width=35px bgcolor=#000000></td>";
        }
       }
-      echo "</tr>";
+      print "</tr>";
      }
   ?>
 </table>
