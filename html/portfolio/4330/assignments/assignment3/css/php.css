@@ -25,7 +25,7 @@ h6 {
     font-weight: 700;
     margin: 0;
     letter-spacing: 1px;
-    margin: 1% 0;
+    margin: 2em 0;
 }
 
 p {
@@ -34,15 +34,14 @@ p {
     margin: 0;
 }
 
-button {
+.part span {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    color: #4F5D95;
-    text-decoration: none;
-    padding: 10px;
+    padding: 1em;
     border-radius: 5px;
     font-size: 1rem;
+    background-color: white;
 }
 
 #return {
@@ -50,8 +49,13 @@ button {
     left: 0;
 }
 
-button:focus,
-button:hover {
+a {
+    text-decoration: none;
+    color: #4F5D95;
+}
+
+a:focus,
+a:hover {
     outline: none;
     border-radius: 5px;
     text-decoration: none;
