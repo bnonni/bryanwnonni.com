@@ -47,6 +47,9 @@
   <title><?php echo $ate; ?>| Assignment 3, Part 1, PHP | Georgia State, Web Programming</title>
 </head>
 <body>
-  <div><?php echo $ate;?></div>
+  <div>
+  <a class="return" href="../">Go Back</a>
+    <?php echo $ate;?>
+  </div>
 </body>
 </html>
