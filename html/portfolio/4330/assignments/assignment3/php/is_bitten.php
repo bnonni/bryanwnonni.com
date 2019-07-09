@@ -53,7 +53,7 @@
     <?php 
       echo "<p>$isBitten</p>";
     ?>
-    <a id="refresh" action="./is_bitten.php">
+    <a id="refresh" href="./is_bitten.php">
       <span>Refresh for New Response!</span>
     </a>
   </div>
