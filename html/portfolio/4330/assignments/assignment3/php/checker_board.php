@@ -29,24 +29,18 @@
   <meta name="theme-color" content="#ffffff">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checker Board | PHP | Georgia State, Web Programming<title>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Cabin:700" rel="stylesheet" type="text/css">
   <!-- Import CSS -->
   <link href="../css/php.css" rel="stylesheet" type="text/css">
-
-  <!-- PHP Function -->
-  <?php
-    function isBitten(){
-     $random = rand(0, 1);
-     return $random === 1 ? "Yes, Charlie ate my lunch!" : "No, Charlie did not eat my lunch!";
-    }
-    $ate = isBitten();
-  ?>
-  <!-- Dynamic Title -->
   <title><?php echo $ate; ?></title>
 </head>
 <body class="page-top">
   <div><?php echo $ate;?></div>
+  <?php
+    function checkerBoard(){}  
+?>
 </body>
 </html>
