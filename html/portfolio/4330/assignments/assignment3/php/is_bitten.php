@@ -51,7 +51,7 @@
       <span>Back</span>
     </a>
     <?php 
-      echo `<p>{$isBitten}</p>`;
+      echo "<p>$isBitten</p>";
     ?>
     <a id="refresh" href="./is_bitten.php">
       <span>Refresh for New Response!</span>
