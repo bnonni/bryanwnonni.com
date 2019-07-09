@@ -68,7 +68,6 @@
         <th>Average Cost</th>
       </tr>
       <tr>";
-     ksort($atlanta);
      foreach ($atlanta as $key => $val) {
       echo "<td>$key</td>";
       echo "<td>$val</td>";    
