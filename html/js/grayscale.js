@@ -2,99 +2,99 @@
 (function($) {
     "use strict";
     var screen_width = $(window).width();
-    if ( screen_width > 1000) {
+    if (screen_width > 1000) {
         console.log("Screen width = " + screen_width + ": not mobile.");
-    // BNHLegal Image Append on Hover
-    $("div#bnhlegal-inner").hover(
-        function () {
-            $(".bnhlegal-outer").append($("<img class='bnhlegal' src='../img/work/bnhlegal.png' />"));
-        },
-        function () {
-            $("img.bnhlegal").remove();
-        });
-    
-    // Linear Regression Image Append on Hover
-    $("div#linear-regression-inner").hover(
-        function() {
-            $(".linear-regression-outer").append($("<img class='linear-regression-code' src='../img/work/linear-regression-code.png' />"));
-            $(".linear-regression-outer").append($("<img class='linear-regression-plot' src='../img/work/linear-regression-plot.png' />"));
-        },
-        function() {
-            $("img.linear-regression-code").remove();
-            $("img.linear-regression-plot").remove();
-        });
+        // BNHLegal Image Append on Hover
+        $("div#bnhlegal-inner").hover(
+            function() {
+                $(".bnhlegal-outer").append($("<img class='bnhlegal' src='../img/work/bnhlegal.png' />"));
+            },
+            function() {
+                $("img.bnhlegal").remove();
+            });
 
-    // Made Image Append on Hover
-    $("div#cb-inner").hover(
-        function() {
-            $(".cb-outer").append($("<img class='cb-image'src='../img/work/crate-and-barrel.png' />"));
-        },
-        function() {
-            $("img.cb-image").remove();
-        });
+        // Linear Regression Image Append on Hover
+        $("div#linear-regression-inner").hover(
+            function() {
+                $(".linear-regression-outer").append($("<img class='linear-regression-code' src='../img/work/linear-regression-code.png' />"));
+                $(".linear-regression-outer").append($("<img class='linear-regression-plot' src='../img/work/linear-regression-plot.png' />"));
+            },
+            function() {
+                $("img.linear-regression-code").remove();
+                $("img.linear-regression-plot").remove();
+            });
 
-     // Crate & Barrel Image Append on Hover
-     $("div#made-inner").hover(
-        function() {
-            $(".made-outer").append($("<img class='made-image'src='../img/work/made.cloudtagslite.png' />"));
-        },
-        function() {
-            $("img.made-image").remove();
-        });
+        // Made Image Append on Hover
+        $("div#cb-inner").hover(
+            function() {
+                $(".cb-outer").append($("<img class='cb-image'src='../img/work/crate-and-barrel.png' />"));
+            },
+            function() {
+                $("img.cb-image").remove();
+            });
 
-         // C Image Append on Hover
-     $("div#cprog-inner").hover(
-        function() {
-            $(".cprog-outer").append($("<img class='cprog-image'src='../img/work/C-avg-word.png' />"));
-        },
-        function() {
-            $("img.cprog-image").remove();
-        });
+        // Crate & Barrel Image Append on Hover
+        $("div#made-inner").hover(
+            function() {
+                $(".made-outer").append($("<img class='made-image'src='../img/work/made.cloudtagslite.png' />"));
+            },
+            function() {
+                $("img.made-image").remove();
+            });
+
+        // C Image Append on Hover
+        $("div#cprog-inner").hover(
+            function() {
+                $(".cprog-outer").append($("<img class='cprog-image'src='../img/work/C-avg-word.png' />"));
+            },
+            function() {
+                $("img.cprog-image").remove();
+            });
 
         // Oak & Cord Image Append on Hover
-     $("div#oac-inner").hover(
-        function() {
-            $(".oac-outer").append($("<img class='oac-image'src='../img/work/oac.jpg' />"));
-        },
-        function() {
-            $("img.oac-image").remove();
-        });
+        $("div#oac-inner").hover(
+            function() {
+                $(".oac-outer").append($("<img class='oac-image'src='../img/work/oac.jpg' />"));
+            },
+            function() {
+                $("img.oac-image").remove();
+            });
 
         // PBS Image Append on Hover
-     $("div#pbs-inner").hover(
-        function() {
-            $(".pbs-outer").append($("<img class='pbs-image'src='../img/work/pbstjs.png' />"));
-        },
-        function() {
-            $("img.pbs-image").remove();
-        });
+        $("div#pbs-inner").hover(
+            function() {
+                $(".pbs-outer").append($("<img class='pbs-image'src='../img/work/pbstjs.png' />"));
+            },
+            function() {
+                $("img.pbs-image").remove();
+            });
 
-         // Java Image Append on Hover
-     $("div#java-inner").hover(
-        function() {
-            $(".java-outer").append($("<img class='java-image'src='../img/work/card-game.png' />"));
-        },
-        function() {
-            $("img.java-image").remove();
-        });
+        // Java Image Append on Hover
+        $("div#java-inner").hover(
+            function() {
+                $(".java-outer").append($("<img class='java-image'src='../img/work/card-game.png' />"));
+            },
+            function() {
+                $("img.java-image").remove();
+            });
 
-       // UNIX Image Append on Hover
-       $("div#unix-inner").hover(
-        function() {
-            $(".unix-outer").append($("<img class='unix-image'src='../img/work/UNIX.png' />"));
-        },
-        function() {
-            $("img.unix-image").remove();
-        });
+        // UNIX Image Append on Hover
+        $("div#unix-inner").hover(
+            function() {
+                $(".unix-outer").append($("<img class='unix-image'src='../img/work/UNIX.png' />"));
+            },
+            function() {
+                $("img.unix-image").remove();
+            });
 
         // x86 Image Append on Hover
-       $("div#x86-inner").hover(
-        function() {
-            $(".x86-outer").append($("<img class='x86-image'src='../img/work/x86.png' />"));
-        },
-        function() {
-            $("img.x86-image").remove();
-        });
+        $("div#x86-inner").hover(
+            function() {
+                $(".x86-outer").append($("<img class='x86-image'src='../img/work/x86.png' />"));
+            },
+            function() {
+                $("img.x86-image").remove();
+            });
     }
 
 
@@ -281,7 +281,7 @@ function init() {
     map = new google.maps.Map(mapElement, mapOptions);
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
-    var image = 'img/map-marker.svg';
+    var image = '../img/site/map-marker.svg';
     var myLatLng = new google.maps.LatLng(33.802508, -84.39311);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
