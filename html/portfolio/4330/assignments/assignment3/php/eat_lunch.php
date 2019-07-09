@@ -41,11 +41,13 @@
   <link href="https://fonts.googleapis.com/css?family=Cabin:700" rel="stylesheet" type="text/css">
   <!-- Import CSS -->
   <link href="../css/php.css" rel="stylesheet" type="text/css">
-  <title><?php echo `Yes. {$ate}`; ?></title>
+  <title>
+    <?php if($random === 1) echo `Yes. $ate}`;else echo `Charlie did not eat my lunch! {$ate}`;?>
+    </title>
 </head>
 <body>
   <div>
-    <?php echo `Charlie did not eat my lunch! {$ate}`;?>
+    <?php if($random === 1) echo `Yes. $ate}`;else echo `Charlie did not eat my lunch! {$ate}`;?>
   </div>
 </body>
 </html>
