@@ -39,10 +39,10 @@
   <?php
     $one_count = 0; 
     $two_count = 0;
-    $isBitten = (function ($one_count, $two_count){
+    $yes = "Yes, Charlie ate my lunch!";
+    $no = "No, Charlie did not eat my lunch!";
+    $isBitten = (function ($one_count, $two_count, $yes, $no){
       $random = rand(0, 1);
-      $yes = "Yes, Charlie ate my lunch!";
-      $no = "No, Charlie did not eat my lunch!";
       if($random === 1)
         $one_count++;
       else
