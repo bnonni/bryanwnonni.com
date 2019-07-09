@@ -59,9 +59,13 @@
    <?php
      echo 
      "<table class='restaurants' width='300px' cellspacing='1px' cellpadding='1px' border='1px'>
-      <tr>
+     <tbody>
+     <tr>
+        <th>No Order</th>
+    </tr> 
+     <tr>
         <th>Restaurant</th>
-        <th>Ordered by Average Cost</th>
+        <th>Average Cost</th>
       </tr>
       <tr>";
      ksort($atlanta);
@@ -70,13 +74,17 @@
       echo "<td>$val</td>";    
       echo "</tr>";
      }
-     echo "</table><br>"
+     echo "</tbody></table><br>"
     ?>
    <?php
     echo 
     "<table class='restaurants' width='300px' cellspacing='1px' cellpadding='1px' border='1px'>
-     <tr>
+    <tbody>
+    <tr>
        <th>Ordered by Restaurant</th>
+    </tr> 
+    <tr>
+       <th>Restaurant</th>
        <th>Average Cost</th>
      </tr>
      <tr>";
@@ -86,24 +94,27 @@
       echo "<td>$val</td>";    
       echo "</tr>";
      }
-     echo "</table><br>"
+     echo "</tbody></table><br>"
     ?>
    <?php
     echo 
     "<table class='restaurants' width='300px' cellspacing='1px' cellpadding='1px' border='1px'>
-     <tr>
-       <th>Restaurant</th>
+    <tbody>
+    <tr>
        <th>Ordered by Average Cost</th>
+    </tr> 
+    <tr>
+       <th>Restaurant</th>
+       <th>Average Cost</th>
      </tr>
      <tr>";
-     echo "<tr>";
      arsort($atlanta, 1);
      foreach ($atlanta as $key => $val) {
         echo "<td>$key</td>";
         echo "<td>$val</td>";    
         echo "</tr>";
        }
-     echo "</table><br>"
+     echo "</tbody></table><br>"
     ?>
  </div>
 </body>
