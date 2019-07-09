@@ -54,7 +54,7 @@
     <?php 
       echo "<p>$bitten</p>";
     ?>
-    <a id="refresh" action="./is_bitten.php" method="post">
+    <a id="refresh" href="./is_bitten.php" method="post">
       <span>Refresh for New Response!</span>
     </a>
   </div>
