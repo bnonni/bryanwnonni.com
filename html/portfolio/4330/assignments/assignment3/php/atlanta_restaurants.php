@@ -42,18 +42,69 @@
  </a>
  <div id="main-contain">
   <h2>Atlanta's 10 Best Restaurants!</h2>
-  <table class="restaurants" width="300px" cellspacing="1px" cellpadding="1px" border="1px">
+  <?php
+  $atlanta = array ( 
+    "Chama Gaucha" => 40.50,
+    "Aviva by Kameel" => 15.00, 
+    "Bone’s Restaurant" => 65.00, 
+    "Umi Sushi Buckhead" => 40.50, 
+    "Fandangles" => 30.00, 
+    "Capital Grille" => 60.50, 
+    "Canoe" => 35.50, 
+    "One Flew South" => 21.00,
+    "Fox Bros. BBQ" => 15.00, 
+    "South City Kitchen Midtown" => 29.00
+  );
+  ?>
    <?php
-     $atlanta = array ( "Chama Gaucha" => 40.50, "Aviva by Kameel" => 15.00, "Bone’s Restaurant" => 65.00, "Umi Sushi Buckhead" => 40.50, "Fandangles" => 30.00, "Capital Grille" => 60.50, "Canoe" => 35.50, "One Flew South" => 21.00,"Fox Bros. BBQ" => 15.00, "South City Kitchen Midtown" => 29.00);
-     print "<tr><th>Restaurant</th><th>Average Cost</th></tr>";
-     print "<tr>";
+     echo 
+     "<table class='restaurants' width='300px' cellspacing='1px' cellpadding='1px' border='1px'>
+      <tr>
+        <th>Restaurant</th>
+        <th>Ordered by Average Cost</th>
+      </tr>
+      <tr>";
+     ksort($atlanta);
      foreach ($atlanta as $key => $val) {
-      print "<td>$key</td>";
-      print "<td>$val</td>";    
-      print "</tr>";
+      echo "<td>$key</td>";
+      echo "<td>$val</td>";    
+      echo "</tr>";
      }
+     echo "</table><br>"
     ?>
-   </table>
+   <?php
+    echo 
+    "<table class='restaurants' width='300px' cellspacing='1px' cellpadding='1px' border='1px'>
+     <tr>
+       <th>Ordered by Restaurant</th>
+       <th>Average Cost</th>
+     </tr>
+     <tr>";
+     ksort($atlanta);
+     foreach ($atlanta as $key => $val) {
+      echo "<td>$key</td>";
+      echo "<td>$val</td>";    
+      echo "</tr>";
+     }
+     echo "</table><br>"
+    ?>
+   <?php
+    echo 
+    "<table class='restaurants' width='300px' cellspacing='1px' cellpadding='1px' border='1px'>
+     <tr>
+       <th>Restaurant</th>
+       <th>Ordered by Average Cost</th>
+     </tr>
+     <tr>";
+     echo "<tr>";
+     arsort($atlanta, 1);
+     foreach ($atlanta as $key => $val) {
+        echo "<td>$key</td>";
+        echo "<td>$val</td>";    
+        echo "</tr>";
+       }
+     echo "</table><br>"
+    ?>
  </div>
 </body>
 </html>
