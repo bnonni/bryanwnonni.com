@@ -43,10 +43,13 @@
      for($i = 1; $i <= 8; $i++){
       echo "<tr>";
       for($j = 1; $j <= 8; $j++){
-       if($j % 2 == 0)
+       $cell = $i + $j;
+       if($cell % 2 === 0){
         echo "<td height=35px width=35px bgcolor=#ff0000></td>";
-       else
+       }
+       else{
         echo "<td height=35px width=35px bgcolor=#000000></td>";
+       }
       }
      }
   ?>
