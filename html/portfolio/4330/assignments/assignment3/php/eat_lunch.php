@@ -46,7 +46,7 @@
   <!-- Dynamic Title -->
   <title><?php echo $ate; ?></title>
 </head>
-<body class="page-top">
+<body>
   <div><?php echo $ate;?></div>
 </body>
 </html>
