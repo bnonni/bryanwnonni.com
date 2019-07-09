@@ -33,7 +33,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Cabin:700" rel="stylesheet" type="text/css">
   <!-- Import CSS -->
-  <!-- <link href="../css/php.css" rel="stylesheet" type="text/css"> -->
+  <link href="../css/php.css" rel="stylesheet" type="text/css">
   <title>Assignment 3 | Checker Board, PHP | Georgia State, Web Programming</title>
 </head>
 <body>
@@ -45,11 +45,11 @@
       for($j = 1; $j <= 8; $j++){
        $cell = $i + $j;
        if($cell % 2 === 0){
-        print "<td height=35px width=35px bgcolor=#ff0000><svg height='100' width='100'><circle cx='50' cy='50' r='10' stroke='white' stroke-width='1' fill='black' /></svg></td>";
+        print "<td height=35px width=35px bgcolor=#ff0000><svg height='100' width='100'><circle cx='50' cy='50' r='30' stroke='white' stroke-width='1' fill='black' /></svg></td>";
         
        }
        else{
-        print "<td height=35px width=35px bgcolor=#000000><svg height='100' width='100'><circle cx='50' cy='50' r='10' stroke='white' stroke-width='1' fill='red' /></svg></td>";
+        print "<td height=35px width=35px bgcolor=#000000><svg height='100' width='100'><circle cx='50' cy='50' r='30' stroke='white' stroke-width='1' fill='red' /></svg></td>";
        }
       }
       print "</tr>";
