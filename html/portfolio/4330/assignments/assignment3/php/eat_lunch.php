@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Cabin:700" rel="stylesheet" type="text/css">
   <!-- Import CSS -->
-  <link href="css/php.css" rel="stylesheet" type="text/css">
+  <link href="../css/php.css" rel="stylesheet" type="text/css">
   <title><?php echo $ate; ?></title>
 </head>
 <body>
