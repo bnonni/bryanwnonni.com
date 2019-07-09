@@ -44,7 +44,7 @@
     $ate = isBitten();
   ?>
   <!-- Dynamic Title -->
-  <title><?php echo $ate; ?></title>
+  <title><?php echo $ate; ?>| Assignment 3, Part 1, PHP | Georgia State, Web Programming</title>
 </head>
 <body>
   <div><?php echo $ate;?></div>

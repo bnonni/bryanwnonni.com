@@ -34,30 +34,48 @@
   <link href="https://fonts.googleapis.com/css?family=Cabin:700" rel="stylesheet" type="text/css">
   <!-- Import CSS -->
   <link href="../css/php.css" rel="stylesheet" type="text/css">
-  <title>Assignment 3, Part 2 | Checker Board, PHP | Georgia State, Web Programming</title>
+  <title>Assignment 3, Part 3 | Arrays & Functions, PHP | Georgia State, Web Programming</title>
 </head>
 <body>
  <div id="main-contain">
-  <h2> Welcome to Checkers!</h2>
-  <table class="checkerboard" width="300px" cellspacing="1px" cellpadding="1px" tableborder="1px">
-   <?php
-   (function(){
-    for($i = 1; $i <= 8; $i++){
-     print "<tr>";
-     for($j = 1; $j <= 8; $j++){
-      $cell = $i + $j;
-      if($cell % 2 === 0){
-       print "<td height=35px width=35px bgcolor=#ff0000><svg height='100' width='100'><circle cx='50' cy='50' r='30' stroke='white' stroke-width='1' fill='black' /></svg></td>";    
-      }
-      else{
-       print "<td height=35px width=35px bgcolor=#000000><svg height='100' width='100'><circle cx='50' cy='50' r='30' stroke='white' stroke-width='1' fill='red' /></svg></td>";
-      }
-     }
-     print "</tr>";
-    }
-   })()
-   ?>
-  </table>
+  <h2>Arrays and Functions!</h2>
+  <?php
+   $months = array ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+   $unsorted = $months;
+
+   echo "<p>1) Print months in order using for loop.</p>\n";
+   echo "<ul>";
+   for($i = 0; $i < sizeof($months); $i++){
+      echo $months[$i]."\n";
+   }
+   echo "</ul>";
+   echo "<br>";
+   echo "</p>2) Sort months in alphabetical order then print them.</p>\n";
+   sort($months);
+   echo "<ul>";
+   for($j = 0; $j < sizeof($months); $j++){
+      echo $months[$j]."\n";
+   }
+   echo "</ul>";
+   echo "<br>";
+
+   
+   echo "</p>3) Repeat steps 1 & 2 using forEach loop.</p>\n";
+   echo "</p>3.1) Print months in order using forEach loop.</p>\n";
+   echo "<ul>";
+   foreach ($unsorted as $key => $val) {
+      echo "{$key} => $val"."\n";
+   }
+   echo "</ul>";
+   echo "<br>";
+   echo "3.2) Sort months and print in order using forEach loop.\n";
+   echo "<ul>";
+   foreach ($months as $key => $val) {
+      echo "{$key} => $val"."\n";
+   }
+   echo "</ul>";
+   echo "<br>";
+  ?>
  </div>
 </body>
 </html>
