@@ -53,6 +53,9 @@
     <?php 
       echo $isBitten;
     ?>
+    <a id="refresh" href="./is_bitten.php">
+      <span>Refresh for New Response!</span>
+    </a>
   </div>
 </body>
 </html>
