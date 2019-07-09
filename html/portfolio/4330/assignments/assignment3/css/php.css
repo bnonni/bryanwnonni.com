@@ -85,7 +85,3 @@ table.restaurants {
 table.restaurants tr:nth-child(even) {
     background-color: #2F2F2F;
 }
-
-th.title {
-    background-color: #99CC98;
-}
