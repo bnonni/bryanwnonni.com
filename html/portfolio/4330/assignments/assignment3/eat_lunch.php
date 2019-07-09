@@ -4,7 +4,7 @@
 <?php
     function isBitten(){
      $random = rand(0, 1);
-     return $random === 1 ? "Charlie ate my lunch!" : "Charlie did not eat my lunch... not THIS time, Charlie!";
+     return $random === 1 ? "Charlie ate my lunch!" : "Not THIS time, Charlie!";
     }
 ?>
 <head>

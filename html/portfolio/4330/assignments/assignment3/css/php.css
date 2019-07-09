@@ -1,4 +1,4 @@
-/*4330.html*/
+/*assignment3.html*/
 
 html {
     width: 100%;
@@ -32,19 +32,25 @@ p {
     margin: 0;
 }
 
+button {
+    widows: 50%;
+    height: 50%;
+}
+
+
+/* Alt color: #E34C26 */
+
 a {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    color: rgb(10, 186, 139);
+    color: #4F5D95;
     text-decoration: none;
 }
 
 a:focus,
 a:hover {
-    color: white;
     outline: none;
-    background-color: #0138A6;
     border-radius: 5px;
     text-decoration: underline;
 }
@@ -55,16 +61,6 @@ a:hover {
     text-transform: uppercase;
     background-color: #575757;
     font-size: 20px;
-    color: white;
-}
-
-span.gscs {
-    color: red;
-}
-
-.page-top a {
-    font-weight: 700;
-    color: white;
 }
 
 #brand {
