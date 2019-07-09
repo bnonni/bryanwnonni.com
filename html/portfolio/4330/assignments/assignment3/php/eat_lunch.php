@@ -37,17 +37,9 @@
 
   <!-- PHP Function isBitten()-->
   <?php
-    $one_count = 0; 
-    $two_count = 0;
-    $yes = "Yes, Charlie ate my lunch!";
-    $no = "No, Charlie did not eat my lunch!";
-    $isBitten = (function ($one_count, $two_count, $yes, $no){
+    $isBitten = (function (){
       $random = rand(0, 1);
-      if($random === 1)
-        $one_count++;
-      else
-        $two_count++;
-      return $random === 1 ? $yes : $no;
+      return $random === 1 ? "Yes, Charlie ate my lunch!" : "No, Charlie did not eat my lunch!";
      })();
   ?>
   <!-- Dynamic Title -->
@@ -59,10 +51,7 @@
       <span>Back</span>
     </a>
     <?php 
-      if($isBitten === $yes)
-        echo $yes.`{$one_count}`;
-      else
-        echo $no.`{$two_count}`;
+      echo $isBitten;
     ?>
   </div>
 </body>
