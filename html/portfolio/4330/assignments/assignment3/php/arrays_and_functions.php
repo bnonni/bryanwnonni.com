@@ -37,7 +37,7 @@
   <title>Assignment 3, Part 3 | Arrays & Functions, PHP | Georgia State, Web Programming</title>
 </head>
 <body>
-<a href="../assignment3.html">
+<a id="return" href="../assignment3.html">
    <button>Back</button>
  </a>
  <div id="main-contain">

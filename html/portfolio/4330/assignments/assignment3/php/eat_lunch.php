@@ -47,7 +47,7 @@
   <title><?php echo $ate; ?>| Assignment 3, Part 1, PHP | Georgia State, Web Programming</title>
 </head>
 <body>
-<a href="../assignment3.html">
+<a id="return" href="../assignment3.html">
    <button>Back</button>
  </a>
   <div>

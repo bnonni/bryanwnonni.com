@@ -45,6 +45,11 @@ button {
     font-size: 1rem;
 }
 
+#return {
+    position: absolute;
+    left: 0;
+}
+
 button:focus,
 button:hover {
     outline: none;
