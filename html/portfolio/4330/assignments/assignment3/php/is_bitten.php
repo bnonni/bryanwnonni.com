@@ -37,14 +37,13 @@
 
   <!-- PHP Function isBitten()-->
   <?php
-    function isBitten(){
+    $isBitten = (function(){
       $random = rand(0, 1);
       return $random === 1 ? "Yes, Charlie ate my lunch!" : "No, Charlie did not eat my lunch!";
-     };
-     $bitten = isBitten();
+     })();
   ?>
   <!-- Dynamic Title -->
-  <title><?php echo $bitten; ?>| Assignment 3, Part 1, PHP | Georgia State, Web Programming</title>
+  <title><?php echo $isBitten; ?>| Assignment 3, Part 1, PHP | Georgia State, Web Programming</title>
 </head>
 <body>
   <div>
@@ -52,9 +51,9 @@
       <span>Back</span>
     </a>
     <?php 
-      echo "<p>$bitten</p>";
+      echo "<p>$isBitten</p>";
     ?>
-    <a id="refresh" href="./is_bitten.php" method="post">
+    <a id="refresh" action="./is_bitten.php">
       <span>Refresh for New Response!</span>
     </a>
   </div>
