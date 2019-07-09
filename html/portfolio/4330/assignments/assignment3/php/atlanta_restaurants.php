@@ -49,7 +49,7 @@
      print "<tr>";
      foreach ($atlanta as $key => $val) {
       print "<td>$key</td>";
-      print "<td>$val/<td>";    
+      print "<td>$val</td>";    
       print "</tr>";
      }
     ?>
