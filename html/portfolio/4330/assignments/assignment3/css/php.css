@@ -33,28 +33,22 @@ p {
 }
 
 button {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    color: #4F5D95;
+    text-decoration: none;
     padding: 10px;
     border-radius: 5px;
     font-size: 1rem;
 }
 
-
-/* Alt color:  */
-
-a {
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    color: #E34C26;
-    text-decoration: none;
-}
-
-a:focus,
-a:hover {
+button:focus,
+button:hover {
     outline: none;
     border-radius: 5px;
-    text-decoration: underline;
-    color: #4F5D95;
+    text-decoration: none;
+    color: #E34C26;
 }
 
 .checkerboard {
