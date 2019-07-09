@@ -39,7 +39,7 @@
 <body>
  <div id="main-contain">
   <h2> Welcome to Checkers!</h2>
-  <table class="checkerboard" width="300px" cellspacing="1px" cellpadding="1px" border="1px">
+  <table class="checkerboard" width="300px" cellspacing="1px" cellpadding="1px" tableborder="1px">
    <?php
     for($i = 1; $i <= 8; $i++){
      print "<tr>";
