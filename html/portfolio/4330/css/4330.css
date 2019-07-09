@@ -288,12 +288,12 @@ img::-moz-selection {
     top: 1em;
 }
 
-span {
+#return span {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     padding: 0.5em;
     border-radius: 5px;
     font-size: 1rem;
-    background-color: white;
+    background-color: transparent;
 }
