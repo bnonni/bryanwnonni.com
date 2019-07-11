@@ -43,12 +43,27 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Cabin:700" rel="stylesheet" type="text/css">
     <!-- Import CSS -->
+    <link href="css/style.css" rel="stylesheet">
     <link href="../../css/4330.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/validation.js"></script>
 </head>
 
 <body>
     <div class="page-top">
-        Coming Soon!
+        <a id="return" href="../../4330.html">
+            <span>Home Page</span>
+        </a>
+        <h1>Login Form</h1>
+        <form id="signup" onsubmit="check(this);">
+            <span id="ispan">ID:</span><input id="ed" type="text" name="id" size="10"><br>
+            <span id="uspan">Username:</span><input id="us" type="text" name="user" size="10"><br>
+            <span id="pspan">Password:</span><input id="pd" type="password" name="pass" size="10"><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset Form" onclick="window.location.reload()">
+        </form>
+        <footer id="foot">
+            <div id="message"></div>
+        </footer>
     </div>
 </body>
 

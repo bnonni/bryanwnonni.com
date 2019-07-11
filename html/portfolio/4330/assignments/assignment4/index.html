@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+ <meta charset="UTF-8">
+ <link href="./style.css" rel="stylesheet">
+ <title>Login</title>
+ <script type="text/javascript" src="./validation.js"></script>
+</head>
+
+<body>
+ <h1>Login Form</h1>
+ <form id="signup" onsubmit="check(this);">
+  <span id="ispan">ID:</span><input id="ed" type="text" name="id" size="10"><br>
+  <span id="uspan">Username:</span><input id="us" type="text" name="user" size="10"><br>
+  <span id="pspan">Password:</span><input id="pd" type="password" name="pass" size="10"><br>
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset Form" onclick="window.location.reload()">
+ </form>
+ <footer>
+  <div id="message"></div>
+ </footer>
+</body>
+
+</html>
