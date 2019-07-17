@@ -1,0 +1,11 @@
+.red {
+    color: red;
+}
+
+.redinput {
+    border: 5px solid red;
+}
+
+#foot {
+    border: none;
+}
