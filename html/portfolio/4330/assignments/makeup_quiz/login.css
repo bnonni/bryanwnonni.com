@@ -7,14 +7,17 @@ body {
     box-sizing: border-box;
    }
  
-   /* Add padding to containers */
    .container {
-    padding: 16px;
-    background-color: rgba(82, 86, 89, 0.194);;
-   }
+       padding: 16px;
+       background-color: rgba(82, 86, 89, 0.194);
+       width: 37em;
+       margin: 0 auto;
+       margin-top: 5em;
+    }
 
    .errors{
        color: red;
+       padding: 1em 0;
    }
 
    #formErrors {
@@ -29,30 +32,30 @@ body {
        border: 1px solid #aaa;
    }
  
-   /* Full-width input fields */
    input {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: 1px solid #aaa;
-    background: white;
-   }
+       width: 100%;
+       padding: 15px;
+       margin: 5px 0 22px 0;
+       display: inline-block;
+       border: 1px solid #aaa;
+       background: white;
+       border-radius: 5px;
+    }
 
    label {
        font-weight: bold;
    }
-   /* Set a style for the submit button */
+ 
    #submit {
-    background-color: rgb(54, 141, 228);
-    color: white;
-    padding: 16px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-   }
+        background-color: rgb(54, 141, 228);
+        color: white;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+    }
  
    #submit:hover {
     opacity: 1;
