@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css?family=Mukta");
+
+body {
+    font-family: "Mukta", sans-serif;
+    height: 100vh;
+    min-height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/header.jpg);
+    background-position: center;
+    position: relative;
+    overflow-y: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #444444;
+}
+
+.login-reg-panel {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 70%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 400px;
+    background-color: rgba(30, 30, 30, 0.9);
+}
+
+.white-panel {
+    background-color: rgb(202, 195, 195);
+    height: 500px;
+    position: absolute;
+    top: -50px;
+    width: 50%;
+    right: calc(50% - 50px);
+    transition: .3s ease-in-out;
+    z-index: 0;
+}
+
+.login-reg-panel input[type="radio"] {
+    position: relative;
+    display: none;
+}
+
+.login-reg-panel {
+    color: #B8B8B8;
+}
+
+.login-reg-panel #label-login,
+.login-reg-panel #label-register {
+    border: 1px solid #9E9E9E;
+    padding: 0 5px;
+    width: 150px;
+    display: block;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-info-box {
+    width: 30%;
+    padding: 0 50px;
+    top: 20%;
+    left: 0;
+    position: absolute;
+    text-align: left;
+}
+
+.register-info-box {
+    width: 30%;
+    padding: 0 50px;
+    top: 20%;
+    right: 0;
+    position: absolute;
+    text-align: left;
+
+}
+
+.right-log {
+    right: 50px !important;
+}
+
+.login-show,
+.register-show {
+    z-index: 1;
+    display: none;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    color: #242424;
+    text-align: left;
+    padding: 50px;
+}
+
+.show-log-panel {
+    display: block;
+    opacity: 0.9;
+}
+
+.login-show input[type="text"],
+.login-show input[type="password"] {
+    width: 100%;
+    display: block;
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #b5b5b5;
+    outline: none;
+}
+
+.login-show input[type="button"] {
+    max-width: 150px;
+    width: 100%;
+    background: #444444;
+    color: #f9f9f9;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    float: right;
+    cursor: pointer;
+}
+
+.login-show a {
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.register-show input[type="text"],
+.register-show input[type="password"] {
+    width: 100%;
+    display: block;
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #b5b5b5;
+    outline: none;
+}
+
+.register-show input[type="button"] {
+    max-width: 150px;
+    width: 100%;
+    background: #444444;
+    color: #f9f9f9;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    float: right;
+    cursor: pointer;
+}
+
+.credit {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #3B3B25;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    z-index: 99;
+}
+
+a {
+    text-decoration: none;
+    color: #eaeaea;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+   }
+   
+   .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+   }
+   
+   .sidenav a:hover {
+    color: #f1f1f1;
+   }
+   
+   .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+   }
+   
+   #main {
+    transition: margin-left .5s;
+    padding: 16px;
+    height: 0;
+   }
+   
+   @media screen and (max-height: 450px) {
+    .sidenav {
+      padding-top: 15px;
+    }
+   
+    .sidenav a {
+      font-size: 18px;
+    }
+   }
+   
+   #menu {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    margin: 0 auto;
+    border: 5px solid white;
+    background: black;
+    margin-right: 28%;
+   }
+   .heading {
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 0;
+    }
+    
+    h1, h5{
+     text-align: center;
+    }
+
+    .alert__fail{
+        color: red;
+        font-weight: 800;
+    }
+    .alert__success{
+        color: green;
+        font-weight: 800;
+    }
