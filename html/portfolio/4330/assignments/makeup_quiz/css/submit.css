@@ -7,6 +7,14 @@ body {
  background-color: white;
 }
 
+
+#brand {
+  font-size: 25px;
+  font-weight: 700;
+  color: #575757;
+  text-decoration: none;
+}
+
 p span{
   font-weight: bold;
   text-decoration: underline;
