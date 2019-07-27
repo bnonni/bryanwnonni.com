@@ -1,4 +1,4 @@
-function checkForm(data, event) {
+function checkForm(data) {
  var check = document.querySelectorAll('errors');
 
  var fullName = data.fullname.value.length;
@@ -59,7 +59,6 @@ function checkForm(data, event) {
  } else {
   clearError("#passwordConfirmError", "#passwordConfirm", "redinput");
  }
-
  event.currentTarget();
  return true;
 }
