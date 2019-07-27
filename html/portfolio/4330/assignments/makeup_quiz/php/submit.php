@@ -12,7 +12,7 @@
 <p><span>Your Name</span>: <?php print $_POST["fullname"] ?></p>
 <p><span>Email</span>: <?php print $_POST["email"] ?></p>
 <p><span>Password</span>: <?php print $_POST["password"] ?></p>
-<a href="../"><button type="button" class="backbtn">Go Back</button></a>
+<a href="../quiz.html"><button type="button" class="backbtn">Go Back</button></a>
 </div>
 </body>
 </html>
