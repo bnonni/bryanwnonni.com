@@ -13,7 +13,7 @@ function checkForm(data) {
   clearError("#fullnameError", "#fullname", "redinput");
  }
 
- var email = data.emailaddress.value;
+ var email = data.email.value;
  var emailPattern = new RegExp(/^[a-zA-Z0-9\._%+-]+@[A-Za-z0-9.-]+[\.A-Za-z]{2,3}$/gi);
  if (!emailPattern.test(email)) {
   event.preventDefault();
