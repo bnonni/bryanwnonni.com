@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+ }
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: white;
+}
+
+p span{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.container {
+    padding: 16px;
+    background-color: rgba(82, 86, 89, 0.194);
+    width: 37em;
+    margin: 0 auto;
+    margin-top: 5em;
+ }
+
+ .backbtn {
+  background-color: #4A96E3;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 1.05em
+}
+
+.backbtn:hover {
+  opacity:1;
+}
