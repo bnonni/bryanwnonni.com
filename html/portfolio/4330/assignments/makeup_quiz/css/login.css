@@ -1,12 +1,11 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
-   }
- 
-   * {
-    box-sizing: border-box;
-   }
+}
 
+* {
+    box-sizing: border-box;
+}
 
 #brand {
     font-size: 25px;
@@ -14,57 +13,57 @@ body {
     color: #575757;
     text-decoration: none;
 }
- 
-   .container {
-       padding: 16px;
-       background-color: rgba(82, 86, 89, 0.194);
-       width: 37em;
-       margin: 0 auto;
-       margin-top: 5em;
-    }
 
-   .errors{
-       color: red;
-       padding: 1em 0;
-   }
+.container {
+    padding: 16px;
+    background-color: rgba(82, 86, 89, 0.194);
+    width: 37em;
+    margin: 0 auto;
+    margin-top: 5em;
+}
 
-   #formErrors {
-       display: none;
-   }
-   
-   .redinput{
+.errors {
+    color: red;
+    padding: 1em 0;
+}
+
+#formErrors {
+    display: none;
+}
+
+.redinput {
     border: 5px solid red;
-   }
+}
 
-   .blackinput {
-       border: 1px solid #aaa;
-   }
- 
-   input {
-       width: 100%;
-       padding: 15px;
-       margin: 5px 0 22px 0;
-       display: inline-block;
-       border: 1px solid #aaa;
-       background: white;
-       border-radius: 5px;
-    }
+.blackinput {
+    border: 1px solid #aaa;
+}
 
-   label {
-       font-weight: bold;
-   }
- 
-   #submit {
-        background-color: rgb(54, 141, 228);
-        color: white;
-        padding: 16px 20px;
-        margin: 8px 0;
-        border: none;
-        cursor: pointer;
-        width: 100%;
-        opacity: 0.9;
-    }
- 
-   #submit:hover {
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 1px solid #aaa;
+    background: white;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+#submit {
+    background-color: rgb(54, 141, 228);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+#submit:hover {
     opacity: 1;
-   }
+}
