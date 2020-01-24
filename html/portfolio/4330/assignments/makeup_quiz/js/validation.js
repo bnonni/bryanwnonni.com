@@ -64,7 +64,7 @@ function checkForm(data) {
 }
 
 function error(id, err) {
-    document.getElementById(id).className += err; //add input error style class
+    document.getElementById(id).className = err; //add input error style class
 }
 
 function clearError(lid, cid, clr) {
@@ -75,5 +75,5 @@ function clearError(lid, cid, clr) {
 function printError(msg) {
     var errors = document.getElementById("formErrors");
     errors.style.display += "block";
-    errors.innerHTML += msg; //append error message
+    errors.innerHTML = msg; //append error message
 }
