@@ -62,7 +62,6 @@ function checkForm(data) {
     event.currentTarget();
     return true;
 }
-username
 
 function error(id, err) {
     document.getElementById(id).className += err; //add input error style class
