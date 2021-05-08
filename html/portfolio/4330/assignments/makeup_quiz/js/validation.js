@@ -59,7 +59,6 @@ function checkForm(data) {
     } else {
         clearError("#passwordConfirmError", "#passwordConfirm", "redinput");
     }
-    event.currentTarget();
     return true;
 }
 
