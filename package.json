@@ -1,10 +1,7 @@
 {
-  "name": "portfolio-app",
+  "name": "bryan-w-nonni-portfolio",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://dbarochiya.github.io/me",
   "dependencies": {
-    "gh-pages": "^2.0.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5",
@@ -12,7 +9,7 @@
     "yarn": "^1.13.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=8081 react-scripts start",
     "build": "react-scripts build",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
