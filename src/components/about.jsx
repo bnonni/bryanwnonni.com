@@ -4,7 +4,7 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        <section className="colorlib-about" data-section="about">
+        <section style={{padding: "0 1em"}} className="colorlib-about" data-section="about">
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-12">
@@ -25,7 +25,7 @@ export default class About extends Component {
             </div>
         </div>
         </section>
-        <section className="colorlib-about">
+        <section style={{padding: "0 1em"}} className="colorlib-about">
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
