@@ -100,7 +100,7 @@ function Timeline() {
                         &nbsp;<i className="icon-arrow-right" />
                         Projects: SSI Services Provider, DeFi Research, Buy Now Pay Later, NCR Coin, Pay with Lightning<br />
                         &nbsp;<i className="icon-arrow-right" />
-                        6 patents-pending for ideas generated from blockchain and crypto related ideas
+                        6 patents-pending for ideas generated from blockchain and crypto related ideas<br />
                         &nbsp;<i className="icon-arrow-right" />
                         Leading the Innovation Lab in blockchain and crypto research and development projects<br />
                         &nbsp;<i className="icon-arrow-right" />
