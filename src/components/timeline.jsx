@@ -96,7 +96,7 @@ function Timeline() {
                       <p>Over the past 2 years at NCR, the majority of my work has focused on blockchain technology and cryptocurrency: researching topics for education, applying research in developing ideas, submitting ideas as IDR for patents, building those ideas into PoCs and working my way into a Blockchain and Crypto Tech Lead position in the Lab.</p>
                       <p>
                         &nbsp;<i className="icon-arrow-right" />
-                        Research: Crypto, Blockchain, Bitcoin, Lightning, DeFi, Decentralized Identity, Self-Sovereign Identity
+                        Research: Crypto, Blockchain, Bitcoin, Lightning, DeFi, Decentralized Identity, Self-Sovereign Identity<br />
                         &nbsp;<i className="icon-arrow-right" />
                         Projects: SSI Services Provider, DeFi Research, Buy Now Pay Later, NCR Coin, Pay with Lightning<br />
                         &nbsp;<i className="icon-arrow-right" />
@@ -135,9 +135,9 @@ function Timeline() {
                       <p> In January 2022, I started a new role as a Software Engineer II on the newly acquired LibertyX production software team.</p>
                       <p>
                         &nbsp;<i className="icon-arrow-right" />
-                        Helping recruit crypto engineers
+                        Helping recruit crypto engineers<br />
                         &nbsp;<i className="icon-arrow-right" />
-                        Directly contributing to the LibertyX and LibertyPay applications
+                        Directly contributing to the LibertyX and LibertyPay applications<br />
                       </p>
                     </div>
                   </div>
