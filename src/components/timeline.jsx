@@ -94,7 +94,7 @@ function Timeline() {
                     <div className="timeline-label">
                       <h2>NCR Corp., Innovation Lab - Software Engineer I, Blockchain/Crypto Tech Lead<span> 2020-2022</span></h2>
                       <p>Over the past 2 years at NCR, the majority of my work has focused on blockchain technology and cryptocurrency: researching topics for education, applying research in developing ideas, submitting ideas as IDR for patents, building those ideas into PoCs and working my way into a Blockchain and Crypto Tech Lead position in the Lab.</p>
-                      <p> Summary of my role in the Lab from 2020 to 2022 at NCR<br />
+                      <p>
                         &nbsp;<i className="icon-arrow-right" />
                         Research: Crypto, Blockchain, Bitcoin, Lightning, DeFi, Decentralized Identity, Self-Sovereign Identity
                         &nbsp;<i className="icon-arrow-right" />
@@ -133,7 +133,7 @@ function Timeline() {
                     <div className="timeline-label">
                       <h2>NCR Corp., NCR Crypto - Software Engineer II, LibertyX, LibertyPay<span> 2022-present</span></h2>
                       <p> In January 2022, I started a new role as a Software Engineer II on the newly acquired LibertyX production software team.</p>
-                      <p> Summary of my new role and responsibilites<br />
+                      <p>
                         &nbsp;<i className="icon-arrow-right" />
                         Helping recruit crypto engineers
                         &nbsp;<i className="icon-arrow-right" />
