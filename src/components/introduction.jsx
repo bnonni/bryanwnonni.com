@@ -43,8 +43,8 @@ function Introduction(){
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
-                          <h1>I like crypto.</h1>
-                          <p><a id="bitcoin-link" className="btn btn-primary btn-learn" href="https://bitcoin.org/bitcoin.pdf" target="_blank" rel="noopener noreferrer">Learn about <span style={{color: '#F7931B'}}>₿</span>itcoin</a></p>
+                          <h1>I like bitcoin.</h1>
+                          <p><a id="bitcoin-link" className="btn btn-primary btn-learn" href="/docs/bitcoin.pdf" target="_blank" rel="noopener noreferrer">Learn about <span style={{color: '#F7931B'}}>₿</span>itcoin</a></p>
                         </div>
                       </div>
                     </div>
