@@ -10,8 +10,8 @@ function About() {
                             <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                                 <div className="col-md-12">
                                     <div className="about-desc">
-                                        <span className="heading-meta">About</span>
-                                        <h2 className="colorlib-heading">Who?</h2>
+                                        <span className="heading-meta">Who?</span>
+                                        <h2 className="colorlib-heading">About</h2>
                                         <p>"People don't buy what you do, they buy why you do it." <a href="https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action">-Simon Sinek</a></p>
                                         <p>My name is Bryan. I graduated from The University of Georgia in 2014 with a Bachelor of Arts in Communication Studies, and then I worked in digital marketing for 4 years.</p>
                                         <p>In 2014, I first heard the term "Bitcoin," and after a brief and broken explanation from a friend, I dismissed the idea. It wasn't until 2016 when I started to self-teach coding that I heard the term blockchain and became curious. From 2016 to 2017, I took 2 coding bootcamps and began building websites as a "side hustle." During this time, I also started online courses on "what is a blockchain" and "how to build your own cryptocurrency." At that time, I knew 0 java, and realized, I needed to go back to school.</p>
