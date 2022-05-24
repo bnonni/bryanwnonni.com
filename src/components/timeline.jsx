@@ -135,13 +135,13 @@ function Timeline() {
                       <p> In January 2022, I started a new role as a Software Engineer II on the LibertyX & LibertyPay production software teams.</p>
                       <p>
                         &nbsp;<i className="icon-arrow-right" />
-                        Working on the LibertyX & LibertyPay production engineering team
+                        Working on the LibertyX & LibertyPay production engineering team<br />
                         &nbsp;<i className="icon-arrow-right" />
-                        Directly contributing to the LibertyX and LibertyPay production application
+                        Directly contributing to the LibertyX and LibertyPay production application<br />
                         &nbsp;<i className="icon-arrow-right" />
-                        Developing API integrations between LibertyPay and multiple major currency exchanges
+                        Developing API integrations between LibertyPay and multiple major currency exchanges<br />
                         &nbsp;<i className="icon-arrow-right" />
-                        Enabling remittances from the US to 50+ new countries for the LibertyPay application
+                        Enabling remittances from the US to 50+ new countries for the LibertyPay application<br />
                       </p>
                     </div>
                   </div>
