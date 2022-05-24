@@ -7,7 +7,7 @@ function Timeline() {
         <div className="colorlib-narrow-content">
           <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-              <span className="heading-meta">highlights</span>
+              <span className="heading-meta">When?</span>
               <h2 className="colorlib-heading animate-box">Timeline</h2>
             </div>
           </div>
@@ -92,8 +92,8 @@ function Timeline() {
                       <i className="icon-pen2" />
                     </div>
                     <div className="timeline-label">
-                      <h2>NCR Corp., Innovation Lab - Software Engineer I, Blockchain/Crypto Tech Lead<span> 2020-2022</span></h2>
-                      <p>Over the past 2 years at NCR, the majority of my work has focused on blockchain technology and cryptocurrency: researching topics for education, applying research in developing ideas, submitting ideas as IDR for patents, building those ideas into PoCs and working my way into a Blockchain and Crypto Tech Lead position in the Lab.</p>
+                      <h2>NCR, Innovation Lab, Software Engineer I, Blockchain & Crypto Technical Lead<span> 2020-2022</span></h2>
+                      <p>Over the past 2 years at NCR, the majority of my work has focused on blockchain technology and cryptocurrency. This included researching topics for education, applying research in developing ideas, submitting ideas for patent, building those ideas into proof-of-concepts and working my way into a Blockchain and Crypto Technical Lead position in the Lab.</p>
                       <p>
                         &nbsp;<i className="icon-arrow-right" />
                         Research: Crypto, Blockchain, Bitcoin, Lightning, DeFi, Decentralized Identity, Self-Sovereign Identity<br />
@@ -131,13 +131,17 @@ function Timeline() {
                       <i className="icon-pen2" />
                     </div>
                     <div className="timeline-label">
-                      <h2>NCR Corp., NCR Crypto - Software Engineer II, LibertyX, LibertyPay<span> 2022-present</span></h2>
-                      <p> In January 2022, I started a new role as a Software Engineer II on the newly acquired LibertyX production software team.</p>
+                      <h2>LibertyX, LibertyPay, Software Engineer II<span> 2022-present</span></h2>
+                      <p> In January 2022, I started a new role as a Software Engineer II on the LibertyX & LibertyPay production software teams.</p>
                       <p>
                         &nbsp;<i className="icon-arrow-right" />
-                        Helping recruit crypto engineers<br />
+                        Working on the LibertyX & LibertyPay production engineering team
                         &nbsp;<i className="icon-arrow-right" />
-                        Directly contributing to the LibertyX and LibertyPay applications<br />
+                        Directly contributing to the LibertyX and LibertyPay production application
+                        &nbsp;<i className="icon-arrow-right" />
+                        Developing API integrations between LibertyPay and multiple major currency exchanges
+                        &nbsp;<i className="icon-arrow-right" />
+                        Enabling remittances from the US to 50+ new countries for the LibertyPay application
                       </p>
                     </div>
                   </div>
