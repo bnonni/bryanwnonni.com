@@ -13,7 +13,7 @@ function Projects() {
 					</div>
 					<div className="row">
 						<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-							<div className="project" style={{ backgroundImage: 'url(images/img-1.jpg)' }}>
+							<div className="project" style={{ backgroundImage: 'url(images/cete-01.jpeg)' }}>
 								<div className="desc">
 									<div className="con">
 										<h3><a href="work.html">Work 01</a></h3>

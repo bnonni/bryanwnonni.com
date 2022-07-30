@@ -1,22 +1,26 @@
 import React from 'react';
 import './App.css';
-import Sidebar from './components/sidebar'
-import Introduction from './components/introduction'
-import About from './components/about'
-import Timeline from './components/timeline'
+import Sidebar from './components/sidebar';
+import Introduction from './components/introduction';
+import About from './components/about';
+import Projects from './components/projects';
+import Timeline from './components/timeline';
+import Blog from './components/blog';
 
 function App() {
     return (
-      <div id="colorlib-page">
-        <div id="container-wrap">
-         	<Sidebar></Sidebar>
-				<div style={{padding: 0}} id="colorlib-main">
-					<Introduction></Introduction>
-					<About></About>
-					<Timeline></Timeline>
-          	</div>
-      	</div>
-      </div>
+        <div id="colorlib-page">
+            <div id="container-wrap">
+                <Sidebar></Sidebar>
+                <div style={{ padding: 0 }} id="colorlib-main">
+                    <Introduction></Introduction>
+                    <About></About>
+                    <Projects></Projects>
+                    <Blog></Blog>
+                    <Timeline></Timeline>
+                </div>
+            </div>
+        </div>
     );
 }
 
