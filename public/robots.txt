@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+Sitemap: https://dev.bryanwnonni.com/sitemap.xml
