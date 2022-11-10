@@ -1,6 +1,6 @@
 import React from 'react'
 
-function About() {
+export const About = () => {
     return (
         <div>
             <section style={{ padding: "0 1em" }} className="colorlib-about" data-section="about">

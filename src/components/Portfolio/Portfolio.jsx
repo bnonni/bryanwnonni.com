@@ -1,7 +1,7 @@
 import React from 'react'
 import { Project } from './Project';
 
-const Portfolio = (props) => {
+export const Portfolio = (props) => {
 	return (
 		<div>
 			<section className="colorlib-work" data-section="projects">
@@ -32,5 +32,3 @@ const Portfolio = (props) => {
 		</div>
 	)
 }
-
-export default Portfolio;

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Introduction(){
+export const Introduction = () => {
     return (
       <div>
         <section id="colorlib-hero" className="js-fullheight" data-section="home">
@@ -57,5 +57,3 @@ function Introduction(){
       </div>
     )
   }
-
-export default Introduction;

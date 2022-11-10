@@ -1,14 +1,9 @@
 import { useState, useEffect } from "react";
 import ReactLoading from 'react-loading';
 
-import Sidebar from './components/Sidebar';
-import Introduction from './components/Introduction';
-import About from './components/About';
-import Portfolio from './components/Portfolio/Portfolio';
-import Timeline from './components/Timeline';
-import Blog from './components/Blog/Blog';
+import { Introduction, About, Portfolio, Sidebar, Timeline, Blog } from './components';
 
-import data from "./data/data.json";
+import { data } from "./data/data";
 import './App.css';
 
 const App = () => {

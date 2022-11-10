@@ -1,4 +1,4 @@
-{
+export const data = {
     "Posts": [
         {
             "url": "https://github.com/bnonni/familybtc",
