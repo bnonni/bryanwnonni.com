@@ -14,8 +14,8 @@
     "yarn": "^1.13.0"
   },
   "scripts": {
-    "start": "PORT=8080 react-scripts start",
-    "dev": "PORT=8081 react-scripts start",
+    "start": "PORT=8080 react-scripts --openssl-legacy-provider start",
+    "dev": "PORT=8081 react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
