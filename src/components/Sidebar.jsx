@@ -23,13 +23,13 @@ export const Sidebar = () => {
           </nav>
           <nav id="colorlib-main-menu">
             <ul>
-              <li><a href="https://twitter.com/nonnyay" target="_blank" rel="noopener noreferrer"><i className="icon-twitter2" /></a></li>
+              <li><a href="https://twitter.com/nonni_io" target="_blank" rel="noopener noreferrer"><i className="icon-twitter2" /></a></li>
+              <li><a href="https://t.me/nonni_io" target="_blank" rel="noopener noreferrer"><i className="icon-telegram" /></a></li>
               <li><a href="https://www.linkedin.com/in/bryanwnonni/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
               <li><a href="https://github.com/bnonni" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
             </ul>
           </nav>
           <div className="colorlib-footer">
-            {/* Something here */}
           </div>
         </aside>
       </div>
