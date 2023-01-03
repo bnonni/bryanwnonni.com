@@ -1,141 +1,36 @@
 export const data = {
-    "Posts": [
+    Projects: [
         {
-            "url": "https://github.com/bnonni/familybtc",
-            "image": "images/cete-01.jpeg",
-            "alt": "honeybadger family",
-            "date": "August 25, 2022",
-            "tag": "bitcoin hackathon project",
-            "title": "Cete Family Bitcoin",
-            "description": "2021 MIT Bitcoin Expo Hackathon"
+            image: 'images/projects/01.jpeg',
+            url: 'https://github.com/bnonni/familybtc',
+            title: 'Cete Family Bitcoin',
+            description: '2021 MIT Bitcoin Expo Hackathon Submission',
         },
         {
-            "url": "https://github.com/bnonni/familybtc",
-            "image": "images/cete-01.jpeg",
-            "alt": "honeybadger family",
-            "date": "August 25, 2022",
-            "tag": "bitcoin hackathon project",
-            "title": "Cete Family Bitcoin",
-            "description": "2021 MIT Bitcoin Expo Hackathon"
+            image: 'images/projects/02.jpeg',
+            url: 'https://github.com/terminus-btc/create-ln-app',
+            title: 'Create LN App',
+            description:
+                'create-ln-app is meant to simplify the local dev env setup, so Lapp developers can stop fussing with the dev tooling and start building the future.',
         },
         {
-            "url": "https://github.com/bnonni/familybtc",
-            "image": "images/cete-01.jpeg",
-            "alt": "honeybadger family",
-            "date": "August 25, 2022",
-            "tag": "bitcoin hackathon project",
-            "title": "Cete Family Bitcoin",
-            "description": "2021 MIT Bitcoin Expo Hackathon"
+            image: 'images/projects/03.jpg',
+            url: ' https://github.com/atlantabitdevs/terminus-pay-server',
+            title: 'Terminus Pay',
+            description:
+                '2021 Bitcoin++ Austin Hackathon - Winner: Best Use of Core LN',
         },
         {
-            "url": "https://github.com/bnonni/familybtc",
-            "image": "images/cete-01.jpeg",
-            "alt": "honeybadger family",
-            "date": "August 25, 2022",
-            "tag": "bitcoin hackathon project",
-            "title": "Cete Family Bitcoin",
-            "description": "2021 MIT Bitcoin Expo Hackathon"
+            image: 'images/projects/04.jpeg',
+            url: 'https://github.com/atlantabitdevs/park-lightning',
+            title: 'Arion Parking',
+            description: '2021 BOLT.Fun Hackathon - 1st place',
         },
         {
-            "url": "https://github.com/bnonni/familybtc",
-            "image": "images/cete-01.jpeg",
-            "alt": "honeybadger family",
-            "date": "August 25, 2022",
-            "tag": "bitcoin hackathon project",
-            "title": "Cete Family Bitcoin",
-            "description": "2021 MIT Bitcoin Expo Hackathon"
+            image: 'images/projects/05.jpg',
+            url: 'https://github.com/atlantabitdevs/treepay-ux',
+            title: 'Treepay UX',
+            description: '2021 PlebFi Miami Hackathon - 2nd place',
         },
-        {
-            "url": "https://github.com/bnonni/familybtc",
-            "image": "images/cete-01.jpeg",
-            "alt": "honeybadger family",
-            "date": "August 25, 2022",
-            "tag": "bitcoin hackathon project",
-            "title": "Cete Family Bitcoin",
-            "description": "2021 MIT Bitcoin Expo Hackathon"
-        },
-        {
-            "url": "https://github.com/bnonni/familybtc",
-            "image": "images/cete-01.jpeg",
-            "alt": "honeybadger family",
-            "date": "August 25, 2022",
-            "tag": "bitcoin hackathon project",
-            "title": "Cete Family Bitcoin",
-            "description": "2021 MIT Bitcoin Expo Hackathon"
-        },
-        {
-            "url": "https://github.com/bnonni/familybtc",
-            "image": "images/cete-01.jpeg",
-            "alt": "honeybadger family",
-            "date": "August 25, 2022",
-            "tag": "bitcoin hackathon project",
-            "title": "Cete Family Bitcoin",
-            "description": "2021 MIT Bitcoin Expo Hackathon"
-        },
-        {
-            "url": "https://github.com/bnonni/familybtc",
-            "image": "images/cete-01.jpeg",
-            "alt": "honeybadger family",
-            "date": "August 25, 2022",
-            "tag": "bitcoin hackathon project",
-            "title": "Cete Family Bitcoin",
-            "description": "2021 MIT Bitcoin Expo Hackathon"
-        }
     ],
-    "Projects": [
-        {
-            "image": "images/cete-01.jpeg",
-            "url": "https://github.com/bnonni/familybtc",
-            "title": "Cete Family Bitcoin",
-            "description": "2021 MIT Bitcoin Expo Hackathon"
-        },
-        {
-            "image": "images/cete-01.jpeg",
-            "url": "https://github.com/bnonni/familybtc",
-            "title": "Cete Family Bitcoin",
-            "description": "2021 MIT Bitcoin Expo Hackathon"
-        },
-        {
-            "image": "images/cete-01.jpeg",
-            "url": "https://github.com/bnonni/familybtc",
-            "title": "Cete Family Bitcoin",
-            "description": "2021 MIT Bitcoin Expo Hackathon"
-        },
-        {
-            "image": "images/cete-01.jpeg",
-            "url": "https://github.com/bnonni/familybtc",
-            "title": "Cete Family Bitcoin",
-            "description": "2021 MIT Bitcoin Expo Hackathon"
-        },
-        {
-            "image": "images/cete-01.jpeg",
-            "url": "https://github.com/bnonni/familybtc",
-            "title": "Cete Family Bitcoin",
-            "description": "2021 MIT Bitcoin Expo Hackathon"
-        },
-        {
-            "image": "images/cete-01.jpeg",
-            "url": "https://github.com/bnonni/familybtc",
-            "title": "Cete Family Bitcoin",
-            "description": "2021 MIT Bitcoin Expo Hackathon"
-        },
-        {
-            "image": "images/cete-01.jpeg",
-            "url": "https://github.com/bnonni/familybtc",
-            "title": "Cete Family Bitcoin",
-            "description": "2021 MIT Bitcoin Expo Hackathon"
-        },
-        {
-            "image": "images/cete-01.jpeg",
-            "url": "https://github.com/bnonni/familybtc",
-            "title": "Cete Family Bitcoin",
-            "description": "2021 MIT Bitcoin Expo Hackathon"
-        },
-        {
-            "image": "images/cete-01.jpeg",
-            "url": "https://github.com/bnonni/familybtc",
-            "title": "Cete Family Bitcoin",
-            "description": "2021 MIT Bitcoin Expo Hackathon"
-        }
-    ]
-}
+};
