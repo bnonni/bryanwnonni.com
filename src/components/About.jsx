@@ -91,7 +91,7 @@ export const About = () => {
                     </div>
                 </div>
             </section>
-            {/* <section style={{ padding: "0 1em" }} className="colorlib-about">
+            <section style={{ padding: "0 1em" }} className="colorlib-about">
                 <div className="colorlib-narrow-content">
                     <div className="row">
                         <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -181,7 +181,7 @@ export const About = () => {
                         </div>
                     </div>
                 </div>
-            </section> */}
+            </section>
         </div>
     );
 };

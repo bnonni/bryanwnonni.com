@@ -33,7 +33,6 @@ const App = () => {
                     <Introduction></Introduction>
                     <About></About>
                     <Portfolio data={lpData.Projects}></Portfolio>
-                    <Blog data={lpData.Posts}></Blog>
                     <Timeline></Timeline>
                 </div>
             </div>
