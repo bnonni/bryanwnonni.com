@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactLoading from 'react-loading';
 import { Project } from './Project';
 
 export const Portfolio = (props) => {
+    const { data } = props;
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        if (!data) {
+            setLoading(true)
+        }
+        setLoading(false)
+    }, []);
+
     return loading ? (
         <div className="loading-container">
             <ReactLoading className={'loading'} type={'bars'} color={'black'} />
