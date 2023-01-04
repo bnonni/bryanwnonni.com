@@ -111,11 +111,10 @@ export const About = () => {
                                     <i className="icon-bulb" />
                                 </span>
                                 <div className="desc">
-                                    <h3>Front End Development</h3>
+                                    <h3>Front End Web Development</h3>
                                     <p>
-                                        Proficient: JavaScript • TypeScript •
-                                        ReactJS • HTML • CSS
-                                        <br /> Learning: React-Native • Next.js
+                                        JavaScript • TypeScript • React-Native •
+                                        NextJS • ReactJS • Angular • HTML • CSS
                                     </p>
                                 </div>
                             </div>
@@ -126,11 +125,10 @@ export const About = () => {
                                     <i className="icon-phone3" />
                                 </span>
                                 <div className="desc">
-                                    <h3>Backend Development</h3>
+                                    <h3>Backend Web Development</h3>
                                     <p>
-                                        Proficient: Bash • Node • ExpressJS •
-                                        MongoDB • Nginx <br />{' '}
-                                        Learning: Go • Rust
+                                        Node • ExpressJS • MongoDB • NextJS •
+                                        Bash • Nginx • Linux • Ubuntu
                                     </p>
                                 </div>
                             </div>
@@ -143,13 +141,13 @@ export const About = () => {
                                 <div className="desc">
                                     <h3>Blockchain / DLT</h3>
                                     <p>
-                                        bitcoind • LND • CLN • Polar • DID • SSI
-                                        • Web5
+                                        Bitcoin • Bitcoin Core • Lightning • LND
+                                        • CLN • LDK • Bolt12 • Taro • LNURL •
+                                        Polar • DID • SSI • Web5
                                     </p>
                                 </div>
                             </div>
                         </div>
-
                         <div className="col-md-4 text-center animate-box">
                             <div className="services color-2">
                                 <span className="icon">
@@ -158,45 +156,9 @@ export const About = () => {
                                 <div className="desc">
                                     <h3>Programming Languages</h3>
                                     <p>
-                                        Proficient: JavaScript • Node • Python{' '}
-                                        <br /> Learning: Solidity • Rust •
-                                        Script
+                                        JavaScript • TypeScript • NodeJS •
+                                        Python
                                     </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-4 text-center animate-box">
-                            <div className="services color-4">
-                                <span className="icon">
-                                    <i className="icon-layers2" />
-                                </span>
-                                <div className="desc">
-                                    <h3>Patents Pending</h3>
-                                    <ol>
-                                        <li>
-                                            Self-Sovereign Identity Verifiable
-                                            Credentials for Consent Processing.
-                                            No. 17/162,663, January 29, 2021.
-                                        </li>
-
-                                        <li>
-                                            Interfaces and Techniques for Secure
-                                            Transaction Funding. No. 17/488,828,
-                                            September 29, 2021.
-                                        </li>
-                                        <li>
-                                            Personal Identifiable Information
-                                            Verification for Decentralized
-                                            Network Services. No. 17/725,682,
-                                            April, 21, 2022.
-                                        </li>
-                                        <li>
-                                            Self-Sovereign Identity Structured
-                                            Messaging for Cross Channel
-                                            Authentication. No. 17/162,663,
-                                            April 28, 2022
-                                        </li>
-                                    </ol>
                                 </div>
                             </div>
                         </div>
@@ -209,7 +171,40 @@ export const About = () => {
                                     <h3>Cloud, Dev Ops, DB</h3>
                                     <p>
                                         SQL • Postgres • Mongo • Docker • Git •
-                                        DigitalOcean • GCP • AWS • Nginx
+                                        Git Actions • DigitalOcean • GCP • AWS •
+                                        Nginx
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4 text-center animate-box">
+                            <div className="services color-4">
+                                <span className="icon">
+                                    <i className="icon-layers2" />
+                                </span>
+                                <div className="desc">
+                                    <h3>Intellectual Property</h3>
+                                    <p>
+                                        Self-Sovereign Identity Verifiable
+                                        Credentials for Consent Processing. No.
+                                        17/162,663, January 29, 2021.
+                                        <br />
+                                        <br />
+                                        Interfaces and Techniques for Secure
+                                        Transaction Funding. No. 17/488,828,
+                                        September 29, 2021.
+                                        <br />
+                                        <br />
+                                        Personal Identifiable Information
+                                        Verification for Decentralized Network
+                                        Services. No. 17/725,682, April, 21,
+                                        2022.
+                                        <br />
+                                        <br />
+                                        Self-Sovereign Identity Structured
+                                        Messaging for Cross Channel
+                                        Authentication. No. 17/162,663, April
+                                        28, 2022
                                     </p>
                                 </div>
                             </div>
