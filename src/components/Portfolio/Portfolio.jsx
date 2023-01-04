@@ -46,7 +46,7 @@ export const Portfolio = (props) => {
                               ))
                             : 'Loading...'}
                     </div>
-                    <div className="row">
+                    {/* <div className="row">
                         <div className="col-md-12 animate-box">
                             <p>
                                 <a
@@ -57,7 +57,7 @@ export const Portfolio = (props) => {
                                 </a>
                             </p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </div>
