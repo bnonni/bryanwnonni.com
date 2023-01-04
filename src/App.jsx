@@ -7,7 +7,6 @@ import {
     Portfolio,
     Sidebar,
     Timeline,
-    Blog,
 } from './components';
 
 import { data } from './data/data';

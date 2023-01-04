@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactLoading from 'react-loading';
 import { Project } from './Project';
 
@@ -8,9 +8,9 @@ export const Portfolio = (props) => {
 
     useEffect(() => {
         if (!data) {
-            setLoading(true)
+            setLoading(true);
         }
-        setLoading(false)
+        setLoading(false);
     }, []);
 
     return loading ? (
