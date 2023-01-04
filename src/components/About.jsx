@@ -91,12 +91,17 @@ export const About = () => {
                     </div>
                 </div>
             </section>
-            <section style={{ padding: "0 1em" }} className="colorlib-about">
+            <section style={{ padding: '0 1em' }} className="colorlib-about">
                 <div className="colorlib-narrow-content">
                     <div className="row">
-                        <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                        <div
+                            className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                            data-animate-effect="fadeInLeft"
+                        >
                             <span className="heading-meta">What?</span>
-                            <h2 className="colorlib-heading">Areas of Expertise</h2>
+                            <h2 className="colorlib-heading">
+                                Areas of Expertise
+                            </h2>
                         </div>
                     </div>
                     <div className="row row-pt-md">
@@ -107,7 +112,11 @@ export const About = () => {
                                 </span>
                                 <div className="desc">
                                     <h3>Front End Development</h3>
-                                    <p>Proficient: JavaScript • HTML • CSS <br /> Learning: React.js • Next.js • Angular.js</p>
+                                    <p>
+                                        Proficient: JavaScript • TypeScript •
+                                        ReactJS • HTML • CSS
+                                        <br /> Learning: React-Native • Next.js
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -118,7 +127,11 @@ export const About = () => {
                                 </span>
                                 <div className="desc">
                                     <h3>Backend Development</h3>
-                                    <p>Proficient: Node • Express • Mongo • Postgres • Nginx <br /> Learning: Nest</p>
+                                    <p>
+                                        Proficient: Bash • Node • ExpressJS •
+                                        MongoDB • Nginx <br />{' '}
+                                        Learning: Go • Rust
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -128,8 +141,11 @@ export const About = () => {
                                     <i className="icon-data" />
                                 </span>
                                 <div className="desc">
-                                    <h3>Blockchain & Cryptocurrency</h3>
-                                    <p>I have been learning and working on a career in crypto since 2016. <br /> Bitcoin • Lightning Network • Hyperledger Indy • Ethereum • Web3 • DeFi</p>
+                                    <h3>Blockchain / DLT</h3>
+                                    <p>
+                                        bitcoind • LND • CLN • Polar • DID • SSI
+                                        • Web5
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -141,7 +157,11 @@ export const About = () => {
                                 </span>
                                 <div className="desc">
                                     <h3>Programming Languages</h3>
-                                    <p>Proficient: JavaScript • Node • Python <br /> Learning: Solidity • Rust • Script</p>
+                                    <p>
+                                        Proficient: JavaScript • Node • Python{' '}
+                                        <br /> Learning: Solidity • Rust •
+                                        Script
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -152,19 +172,31 @@ export const About = () => {
                                 </span>
                                 <div className="desc">
                                     <h3>Patents Pending</h3>
-                                    <p>
-                                        <strong><i>Self-Sovereign Identity Verifiable Credentials for Consent Processing.</i></strong> Application No. 17/162,663, January, 29, 2021.
-                                        <br />
-                                        <br />
-                                        <strong><i>Interfaces and Techniques for Secure Transaction Funding.</i></strong> Application No. 17/488,828, September, 29, 2021.
-                                    </p>
-                                    <h3>Patents Approved for Filing</h3>
-                                    <p>
-                                        <i>DeFi for CeFi: Decentralized Financial Products for Centralized Financial Institutions</i>
-                                        <br />
-                                        <br />
-                                        <i>Self-Sovereign Identity Structured Messaging for Cross Channel Authentication</i>
-                                    </p>
+                                    <ol>
+                                        <li>
+                                            Self-Sovereign Identity Verifiable
+                                            Credentials for Consent Processing.
+                                            No. 17/162,663, January 29, 2021.
+                                        </li>
+
+                                        <li>
+                                            Interfaces and Techniques for Secure
+                                            Transaction Funding. No. 17/488,828,
+                                            September 29, 2021.
+                                        </li>
+                                        <li>
+                                            Personal Identifiable Information
+                                            Verification for Decentralized
+                                            Network Services. No. 17/725,682,
+                                            April, 21, 2022.
+                                        </li>
+                                        <li>
+                                            Self-Sovereign Identity Structured
+                                            Messaging for Cross Channel
+                                            Authentication. No. 17/162,663,
+                                            April 28, 2022
+                                        </li>
+                                    </ol>
                                 </div>
                             </div>
                         </div>
@@ -174,8 +206,11 @@ export const About = () => {
                                     <i className="icon-phone3" />
                                 </span>
                                 <div className="desc">
-                                    <h3>Dev Ops</h3>
-                                    <p>DigitalOcean • Docker • Git • GitHub Actions • GCP • K8s • AWS</p>
+                                    <h3>Cloud, Dev Ops, DB</h3>
+                                    <p>
+                                        SQL • Postgres • Mongo • Docker • Git •
+                                        DigitalOcean • GCP • AWS • Nginx
+                                    </p>
                                 </div>
                             </div>
                         </div>
