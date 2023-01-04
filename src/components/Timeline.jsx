@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Timeline() {
+export const Timeline = () => {
   return (
     <div>
       <section style={{ padding: "0 1em" }} className="colorlib-experience" data-section="timeline">
@@ -154,5 +154,3 @@ function Timeline() {
     </div>
   )
 }
-
-export default Timeline;
