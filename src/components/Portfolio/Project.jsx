@@ -1,7 +1,7 @@
 export const Project = ({ image, url, title, description }) => {
     return (
         <div className="col-md-4">
-            <a href={url} target="_blank">
+            <a href={url} rel="noreferrer" target="_blank">
                 <div
                     className="project"
                     style={{ backgroundImage: `url(${image})` }}

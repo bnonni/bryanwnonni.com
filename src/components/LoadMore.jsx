@@ -4,12 +4,12 @@ export const LoadMore = (props) => {
         <div className="row">
             <div className="col-md-12 animate-box">
                 <p>
-                    <a
+                    <button
                         onClick={onClick}
                         className="btn btn-primary btn-lg btn-load-more"
                     >
                         Load more <i className="icon-reload" />
-                    </a>
+                    </button>
                 </p>
             </div>
         </div>
