@@ -1,8 +1,8 @@
 {
   "name": "bryan-w-nonni-portfolio",
-  "version": "1.5.0",
+  "version": "0.1.0",
   "engines": {
-    "node": "16.x",
+    "node": "18.x",
     "yarn": "^1.22.19"
   },
   "dependencies": {
@@ -15,9 +15,9 @@
     "yarn": "^1.13.0"
   },
   "scripts": {
-    "start": "PORT=8080 react-scripts start",
-    "dev": "PORT=8081 react-scripts start",
-    "build": "react-scripts build",
+    "start": "PORT=8080 react-scripts --openssl-legacy-provider start",
+    "dev": "PORT=8081 react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "yarn run build",
     "deploy": "gh pages -d build",
     "test": "react-scripts test",
