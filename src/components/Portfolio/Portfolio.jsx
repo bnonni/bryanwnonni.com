@@ -1,29 +1,36 @@
 import { Project } from './Project';
 
 export const Portfolio = (props) => {
+    console.log('Portfolio', props);
     return (
         <div>
             <section className="colorlib-work" data-section="projects">
                 <div className="colorlib-narrow-content">
                     <div className="row">
-                        <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box">
+                        <div
+                            className="col-md-6 col-md-offset-3 col-md-pull-3"
+                            data-animate-effect="fadeInLeft"
+                        >
                             <span className="heading-meta">Portfolio</span>
-                            <h2 className="colorlib-heading animate-box">
+                            <h2 className="colorlib-heading">
                                 Recent Projects
                             </h2>
                         </div>
                     </div>
                     <div className="row">
-                        {props.data.map((d, i) => (
-                            <div key={`${d.title}-${i}`}>
-                                <Project
-                                    title={d.title}
-                                    description={d.description}
-                                    image={d.image}
-                                    url={d.url}
-                                />
-                            </div>
-                        ))}
+                        {props.data.map((post, i) => {
+                            console.log('Portfolio', post);
+                            return (
+                                <div key={`${post.title}-${i}`}>
+                                    <Project
+                                        title={post.title}
+                                        description={post.description}
+                                        image={post.image}
+                                        url={post.url}
+                                    />
+                                </div>
+                            );
+                        })}
                     </div>
                     {/* <div className="row">
                         <div className="col-md-12 animate-box">

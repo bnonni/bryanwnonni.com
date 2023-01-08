@@ -3,7 +3,7 @@ import { Post } from './Post';
 export const Blog = (props) => {
     return (
         <div>
-            <section className="colorlib-blog" data-section="blog">
+            <section className="colorlib-blog" data-section="blog" id="blog">
                 <div className="colorlib-narrow-content">
                     <div className="row">
                         <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box">
