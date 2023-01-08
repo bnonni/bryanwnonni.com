@@ -6,3 +6,4 @@ export { Blog } from './Blog';
 export { Post } from './Blog';
 export { Portfolio } from './Portfolio';
 export { Project } from './Portfolio';
+export { LoadMore } from './LoadMore';

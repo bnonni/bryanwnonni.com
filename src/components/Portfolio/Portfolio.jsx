@@ -1,6 +1,9 @@
-import { Project } from './Project';
+import React from 'react';
+import { Project } from './';
+import { LoadMore } from '../';
 
 export const Portfolio = (props) => {
+    const [limit, setLimit] = React.useState(5);
     return (
         <div>
             <section className="colorlib-work" data-section="projects">
@@ -17,7 +20,7 @@ export const Portfolio = (props) => {
                         </div>
                     </div>
                     <div className="row">
-                        {props.data.map((post, i) => (
+                        {props.data.slice(0, limit).map((post, i) => (
                             <div key={`${post.title}-${i}`}>
                                 <Project
                                     title={post.title}
@@ -28,18 +31,7 @@ export const Portfolio = (props) => {
                             </div>
                         ))}
                     </div>
-                    {/* <div className="row">
-                        <div className="col-md-12 animate-box">
-                            <p>
-                                <a
-                                    href="#"
-                                    className="btn btn-primary btn-lg btn-load-more"
-                                >
-                                    Load more <i className="icon-reload" />
-                                </a>
-                            </p>
-                        </div>
-                    </div> */}
+                    <LoadMore onClick={() => setLimit((limit) => limit + 5)} />
                 </div>
             </section>
         </div>
