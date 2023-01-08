@@ -1,7 +1,6 @@
 import { Project } from './Project';
 
 export const Portfolio = (props) => {
-    console.log('Portfolio', props);
     return (
         <div>
             <section className="colorlib-work" data-section="projects">
@@ -18,19 +17,16 @@ export const Portfolio = (props) => {
                         </div>
                     </div>
                     <div className="row">
-                        {props.data.map((post, i) => {
-                            console.log('Portfolio', post);
-                            return (
-                                <div key={`${post.title}-${i}`}>
-                                    <Project
-                                        title={post.title}
-                                        description={post.description}
-                                        image={post.image}
-                                        url={post.url}
-                                    />
-                                </div>
-                            );
-                        })}
+                        {props.data.map((post, i) => (
+                            <div key={`${post.title}-${i}`}>
+                                <Project
+                                    title={post.title}
+                                    description={post.description}
+                                    image={post.image}
+                                    url={post.url}
+                                />
+                            </div>
+                        ))}
                     </div>
                     {/* <div className="row">
                         <div className="col-md-12 animate-box">
