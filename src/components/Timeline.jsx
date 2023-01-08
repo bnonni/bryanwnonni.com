@@ -6,15 +6,15 @@ export const Timeline = () => {
       <section style={{ padding: "0 1em" }} className="colorlib-experience" data-section="timeline">
         <div className="colorlib-narrow-content">
           <div className="row">
-            <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box">
+            <div className="col-md-6 col-md-offset-3 col-md-pull-3" data-animate-effect="fadeInLeft">
               <span className="heading-meta">When?</span>
-              <h2 className="colorlib-heading animate-box">Timeline</h2>
+              <h2 className="colorlib-heading">Timeline</h2>
             </div>
           </div>
           <div className="row">
             <div className="col-md-12">
               <div className="timeline-centered">
-                <article className="timeline-entry animate-box">
+                <article className="timeline-entry" data-animate-effect="fadeInLeft">
                   <div className="timeline-entry-inner">
                     <div className="timeline-icon color-1">
                       <i className="icon-pen2" />
@@ -25,7 +25,7 @@ export const Timeline = () => {
                     </div>
                   </div>
                 </article>
-                <article className="timeline-entry animate-box">
+                <article className="timeline-entry" data-animate-effect="fadeInLeft">
                   <div className="timeline-entry-inner">
                     <div className="timeline-icon color-2">
                       <i className="icon-pen2" />
@@ -40,7 +40,7 @@ export const Timeline = () => {
                     </div>
                   </div>
                 </article>
-                <article className="timeline-entry animate-box">
+                <article className="timeline-entry" data-animate-effect="fadeInTop">
                   <div className="timeline-entry-inner">
                     <div className="timeline-icon color-3">
                       <i className="icon-pen2" />
@@ -53,7 +53,7 @@ export const Timeline = () => {
                     </div>
                   </div>
                 </article>
-                <article className="timeline-entry animate-box">
+                <article className="timeline-entry" data-animate-effect="fadeInLeft">
                   <div className="timeline-entry-inner">
                     <div className="timeline-icon color-4">
                       <i className="icon-pen2" />
@@ -64,7 +64,7 @@ export const Timeline = () => {
                     </div>
                   </div>
                 </article>
-                <article className="timeline-entry animate-box">
+                <article className="timeline-entry" data-animate-effect="fadeInTop">
                   <div className="timeline-entry-inner">
                     <div className="timeline-icon color-5">
                       <i className="icon-pen2" />
@@ -75,7 +75,7 @@ export const Timeline = () => {
                     </div>
                   </div>
                 </article>
-                <article className="timeline-entry animate-box">
+                <article className="timeline-entry" data-animate-effect="fadeInTop">
                   <div className="timeline-entry-inner">
                     <div className="timeline-icon color-1">
                       <i className="icon-pen2" />
@@ -86,7 +86,7 @@ export const Timeline = () => {
                     </div>
                   </div>
                 </article>
-                <article className="timeline-entry animate-box">
+                <article className="timeline-entry" data-animate-effect="fadeInTop">
                   <div className="timeline-entry-inner">
                     <div className="timeline-icon color-2">
                       <i className="icon-pen2" />
@@ -125,7 +125,7 @@ export const Timeline = () => {
                     </div>
                   </div>
                 </article>
-                <article className="timeline-entry animate-box">
+                <article className="timeline-entry" data-animate-effect="fadeInTop">
                   <div className="timeline-entry-inner">
                     <div className="timeline-icon color-2">
                       <i className="icon-pen2" />

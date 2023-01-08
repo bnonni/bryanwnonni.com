@@ -6,7 +6,7 @@ export const Blog = (props) => {
             <section className="colorlib-blog" data-section="blog" id="blog">
                 <div className="colorlib-narrow-content">
                     <div className="row">
-                        <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box">
+                        <div className="col-md-6 col-md-offset-3 col-md-pull-3">
                             <span className="heading-meta">Blog</span>
                             <h2 className="colorlib-heading">Recent Posts</h2>
                         </div>
@@ -27,7 +27,7 @@ export const Blog = (props) => {
                         ))}
                     </div>
                     {/* <div className="row">
-						<div className="col-md-12 animate-box">
+						<div className="col-md-12">
 							<p><a href="#" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload" /></a></p>
 						</div>
 					</div> */}

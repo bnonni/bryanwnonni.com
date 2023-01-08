@@ -1,6 +1,6 @@
 export const Project = ({ image, url, title, description }) => {
     return (
-        <div className="col-md-4 animate-box">
+        <div className="col-md-4">
             <div
                 className="project"
                 style={{ backgroundImage: `url(${image})` }}
