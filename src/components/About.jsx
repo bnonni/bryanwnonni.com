@@ -13,7 +13,6 @@ export const About = () => {
                         <div className="col-md-12">
                             <div
                                 className="row row-bottom-padded-sm animate-box"
-                                data-animate-effect="fadeInLeft"
                             >
                                 <div className="col-md-12">
                                     <div className="about-desc">
@@ -96,7 +95,6 @@ export const About = () => {
                     <div className="row">
                         <div
                             className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-                            data-animate-effect="fadeInLeft"
                         >
                             <span className="heading-meta">What?</span>
                             <h2 className="colorlib-heading">

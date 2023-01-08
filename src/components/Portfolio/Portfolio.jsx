@@ -6,10 +6,7 @@ export const Portfolio = (props) => {
             <section className="colorlib-work" data-section="projects">
                 <div className="colorlib-narrow-content">
                     <div className="row">
-                        <div
-                            className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-                            data-animate-effect="fadeInLeft"
-                        >
+                        <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box">
                             <span className="heading-meta">Portfolio</span>
                             <h2 className="colorlib-heading animate-box">
                                 Recent Projects

@@ -2,10 +2,7 @@ import React from 'react';
 
 export const Post = ({ url, image, alt, date, tag, title, description }) => {
     return (
-        <div
-            className="col-md-4 col-sm-6 animate-box"
-            data-animate-effect="fadeInLeft"
-        >
+        <div className="col-md-4 col-sm-6 animate-box">
             <div className="blog-entry">
                 <a href={url} className="blog-img">
                     <img src={image} className="img-responsive" alt={alt} />

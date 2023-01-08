@@ -6,10 +6,7 @@ export const Blog = (props) => {
             <section className="colorlib-blog" data-section="blog">
                 <div className="colorlib-narrow-content">
                     <div className="row">
-                        <div
-                            className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-                            data-animate-effect="fadeInLeft"
-                        >
+                        <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box">
                             <span className="heading-meta">Blog</span>
                             <h2 className="colorlib-heading">Recent Posts</h2>
                         </div>
