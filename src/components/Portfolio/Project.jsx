@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const Project = ({ image, url, title, description }) => {
     return (
         <div className="col-md-4 animate-box">
@@ -9,7 +7,6 @@ export const Project = ({ image, url, title, description }) => {
             >
                 <div className="desc">
                     <div className="con">
-                        {' '}
                         <h3>
                             <a href={url}>{title}</a>
                         </h3>
