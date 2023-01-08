@@ -12,13 +12,21 @@ import {
 import { data } from './data/data';
 import './App.css';
 
+import SmoothScroll from "smooth-scroll";
+
+export const scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 1000,
+    speedAsDuration: true,
+  });
+
 const App = () => {
-    const [lpData, setLpData] = useState({});
-    const [loading, setLoading] = useState(false);
+    const [lpData, setLpData] = useState();
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        data ? setLpData(data) : setLoading(true);
-    }, []);
+        setLpData(data);
+        setLoading(false);
+    }, [lpData]);
 
     return loading ? (
         <div className="loading-container">

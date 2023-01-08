@@ -1,23 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import ReactLoading from 'react-loading';
 import { Project } from './Project';
 
 export const Portfolio = (props) => {
-    const { data } = props;
-    const [loading, setLoading] = useState(true);
-
-    useEffect(() => {
-        if (!data) {
-            setLoading(true);
-        }
-        setLoading(false);
-    }, []);
-
-    return loading ? (
-        <div className="loading-container">
-            <ReactLoading className={'loading'} type={'bars'} color={'black'} />
-        </div>
-    ) : (
+    return (
         <div>
             <section className="colorlib-work" data-section="projects">
                 <div className="colorlib-narrow-content">
@@ -33,18 +17,16 @@ export const Portfolio = (props) => {
                         </div>
                     </div>
                     <div className="row">
-                        {props.data
-                            ? props.data.map((d, i) => (
-                                  <div key={`${d.title}-${i}`}>
-                                      <Project
-                                          title={d.title}
-                                          description={d.description}
-                                          image={d.image}
-                                          url={d.url}
-                                      />
-                                  </div>
-                              ))
-                            : 'Loading...'}
+                        {props.data.map((d, i) => (
+                            <div key={`${d.title}-${i}`}>
+                                <Project
+                                    title={d.title}
+                                    description={d.description}
+                                    image={d.image}
+                                    url={d.url}
+                                />
+                            </div>
+                        ))}
                     </div>
                     {/* <div className="row">
                         <div className="col-md-12 animate-box">
