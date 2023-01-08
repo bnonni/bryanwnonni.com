@@ -28,12 +28,11 @@
 	var fullHeight = function() {
 
 		if ( !isMobile.any() ) {
-			alert("isNotMobile")
 			$('.js-fullheight').css('height', $(window).height());
 			$(window).resize(function(){
 				$('.js-fullheight').css('height', $(window).height());
 			});
-		} else alert("isMobile")
+		}
 
 	};
 
