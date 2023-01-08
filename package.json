@@ -1,9 +1,9 @@
 {
   "name": "bryan-w-nonni-portfolio",
-  "version": "1.5.0",
+  "version": "1.22.19",
   "engines": {
     "node": "16.x",
-    "yarn": "^1.22.19"
+    "yarn": "^1.22.15"
   },
   "dependencies": {
     "react": "^17.0.1",
