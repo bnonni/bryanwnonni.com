@@ -4,7 +4,7 @@ import {
     About,
     Portfolio,
     Sidebar,
-    Timeline,
+    Timeline
 } from './components';
 import { data } from './data/data';
 import './App.css';
@@ -13,7 +13,7 @@ import SmoothScroll from 'smooth-scroll';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
     speed: 1000,
-    speedAsDuration: true,
+    speedAsDuration: true
 });
 
 const App = () => {

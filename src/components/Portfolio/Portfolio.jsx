@@ -1,8 +1,8 @@
 import React from 'react';
-import { Project } from './';
-import { LoadMore } from '../';
+import { Project } from './Project';
+import { LoadMore } from '../LoadMore';
 
-export const Portfolio = (props) => {
+export const Portfolio = props => {
     const [limit, setLimit] = React.useState(5);
     return (
         <div>
@@ -20,7 +20,7 @@ export const Portfolio = (props) => {
                         </div>
                     </div>
                     <div className="row">
-                        {props.data.slice(0, limit).map((post, i) => (
+                        {props.data.slice(0, limit).map((post, i) =>
                             <div key={`${post.title}-${i}`}>
                                 <Project
                                     title={post.title}
@@ -29,9 +29,9 @@ export const Portfolio = (props) => {
                                     url={post.url}
                                 />
                             </div>
-                        ))}
+                        )}
                     </div>
-                    <LoadMore onClick={() => setLimit((limit) => limit + 5)} />
+                    <LoadMore onClick={() => setLimit(limit => limit + 5)} />
                 </div>
             </section>
         </div>

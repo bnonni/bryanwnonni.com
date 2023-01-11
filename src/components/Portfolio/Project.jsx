@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 export const Project = ({ image, url, title, description }) => {
     return (
         <div className="col-md-4">

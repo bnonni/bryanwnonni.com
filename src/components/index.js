@@ -7,3 +7,4 @@ export { Post } from './Blog';
 export { Portfolio } from './Portfolio';
 export { Project } from './Portfolio';
 export { LoadMore } from './LoadMore';
+export { Resume } from './Resume';

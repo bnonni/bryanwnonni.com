@@ -32,5 +32,5 @@ export const data = {
             title: 'Treepay UX',
             description: '2021 PlebFi Miami Hackathon - 2nd place',
         },
-    ],
+    ]
 };
