@@ -28,52 +28,11 @@ export const About = () => {
                                             </a>
                                         </h4>
                                         <p>
-                                            My name is Bryan. I have degrees in Communications from UGA (circa 2014) and Computer Science from Georgia State (circa 2019).<br />
-                                            I currently work with bitcoin at various levels in different capacities.
-                                        </p>
-                                        <h4>But first, some history ... </h4>
-                                        <p>
-                                            <p>2015</p>
-                                            <ul>
-                                                <li>I was first introduced to Bitcoin by a friend, and not being technical, I dismissed the idea without much investigation.</li>
-                                            </ul>
-                                            <p>2016</p>
-                                            <ul>
-                                                <li>I took 2 coding bootcamps and fell in love.</li>
-                                            </ul>
-                                            <p>2017 - 2018</p>
-                                            <ul>
-                                                <li>I became re-aware of blockchains and cryptocurrencies via the ICO boom.</li>
-                                                <li>I took online courses about blockchains and cryptocurrencies.</li>
-                                                <li>I began experimenting with Bitcoin, Ethereum, etc. from a financial perspective.</li>
-                                                <li>I worked full time in digital marketing.</li>
-                                                <li>I started part-time courses at Georgia State to get a CS degree.</li>
-                                            </ul>
-                                            <p>2019</p>
-                                            <ul>
-                                                <li>I quit my job and went to school at Georgia State full time for a CS degree.</li>
-                                                <li>I graduated in Dec 2019 after 1 year of courses.</li>
-                                            </ul>
-                                            <p>2020</p>
-                                            <ul>
-                                                <li>I accpeted at role at NCR Corporation in the Innovation Lab as a Software Engineer.</li>
-                                                <li>I did research & development specializing in blockchain technology to build products for customers.</li>
-                                                <li>I used Hyperledger Indy to build a decentralized identity system and Ethereum to build a proof-of-concept cryptocurrency system on testnet.</li>
-                                            </ul>
-                                            <p>2021</p>
-                                            <ul>
-                                                <li>I shifted focus to the Bitcoin and the Lightning Network.</li>
-                                                <li>I read Mastering Lightning and built a Lightning node for the Lab and for myself.</li>
-                                                <li>I used OpenNode & Strike to build a proof of concept integrating Lightning payments into an internally facing NCR checkout system.</li>
-                                            </ul>
-                                            <p>Nov 2021 - Present</p>
-                                            <ul>
-                                                <li>I work on the LibertyPay application stack.</li>
-                                                <li>LibertyPay enables faster, cheaper remittances by leveraging on-chain Bitcoin as the settlement layer.</li>
-                                                <li>LibertyPay sends from the US to Brazil, Dominican Republic, Portugal and Guatemala.</li>
-                                                <li>I am currently building a mobile application (iOS & Android).</li>
-                                                <li>The new mobile app will allow the LibertyPay business to scale transactions direct to consumers.</li>
-                                            </ul>
+                                            I am a software engineer, skilled in a range of technologies including Shell, Python, JS, NodeJS, TS, React, Angular, and decentralized technologies like Bitcoin Core, LND, Web5 and Nostr. Currently serving as a Software Engineer II at NCR's LibertyPay (LP) / LibertyX (LX), I led the integrations between LibertyPay and several financial service providers and banks, enabling new remittance corridors and increasing sales volume. I am currently leading the development of a new mobile app that broadens access to remittance payments for LP direct to consumers.
+
+                                            Before this role, I served as a Software Engineer I & Tech Lead in NCR's Innovation Lab specliazing in DLT R&D. My success in the lab can be highlighted by several projects, including the development of an SSI API, aiding the establishment of the NCR/Strike partnership, and the development of an integration of buy now, pay later loans at point-of-sale.
+
+                                            Beyond my work at NCR, I am an active participant and user of the Bitcoin and Lightning technology communities. As a Co-Founder of ATL BitLab and Co-Organizer of Atlanta BitDevs and The Atlanta Bitcoin Conference, I am committed to promoting coworking, community-led education, and market adoption of Bitcoin and Lightning technologies. I have also participated in numerous hackathons, demonstrating an ability to create innovative solutions in competitive environments.
                                         </p>
                                     </div>
                                 </div>
@@ -114,8 +73,8 @@ export const About = () => {
                                 <div className="desc">
                                     <h3>Bitcoin & DID</h3>
                                     <p>Bitcoin Core • LND • CLN • LDK • Bolt12 • Taro • LNURL • Polar • Web5
-                                    <br />
-                                    <br />
+                                        <br />
+                                        <br />
                                     </p>
                                 </div>
                             </div>
