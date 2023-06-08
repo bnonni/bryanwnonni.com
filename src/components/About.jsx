@@ -20,66 +20,60 @@ export const About = () => {
                                         <h2 className="colorlib-heading">
                                             About
                                         </h2>
-                                        <p>
+                                        <h4>
                                             "People don't buy what you do, they
                                             buy why you do it."{' '}
                                             <a href="https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action">
                                                 -Simon Sinek
                                             </a>
-                                        </p>
+                                        </h4>
                                         <p>
-                                            My name is Bryan. I graduated from
-                                            The University of Georgia in 2014
-                                            with a Bachelor of Arts in
-                                            Communication Studies, and then I
-                                            worked in digital marketing for 4
-                                            years.
+                                            My name is Bryan. I have degrees in Communications from UGA (circa 2014) and Computer Science from Georgia State (circa 2019).<br />
+                                            I currently work with bitcoin at various levels in different capacities.
                                         </p>
+                                        <h4>But first, some history ... </h4>
                                         <p>
-                                            In 2014, I first heard the term
-                                            "Bitcoin," and after a brief and
-                                            broken explanation from a friend, I
-                                            dismissed the idea. It wasn't until
-                                            2016 when I started to self-teach
-                                            coding that I heard the term
-                                            blockchain and became curious. From
-                                            2016 to 2017, I took 2 coding
-                                            bootcamps and began building
-                                            websites as a "side hustle." During
-                                            this time, I also started online
-                                            courses on "what is a blockchain"
-                                            and "how to build your own
-                                            cryptocurrency." At that time, I
-                                            knew 0 java, and realized, I needed
-                                            to go back to school.
-                                        </p>
-                                        <p>
-                                            From 2017 to 2019, I worked full
-                                            time and went to school at Georgia
-                                            State part-time for a Computer
-                                            Science degree. Finally, in 2019, I
-                                            decided to quit my job and complete
-                                            my CS degree at Ga State full time.
-                                            I graduated from Georgia State
-                                            University with a Bachelor of
-                                            Science in Computer Science in
-                                            December 2019 and subsequently took
-                                            at job at NCR in the Innovation Lab
-                                            as a Software Engineer I.
-                                        </p>
-                                        <p>
-                                            Over the past 2 years at NCR, the
-                                            majority of my focus has been on
-                                            blockchain technology and
-                                            cryptocurrencies researching topics,
-                                            developing ideas into IDRs, building
-                                            those ideas into PoCs and working my
-                                            way into a Blockchain and Crypto
-                                            Tech Lead position in the Lab. In
-                                            December 2021, I accepted a new role
-                                            as a Software Engineer II on the
-                                            newly acquired LibertyX production
-                                            software team.
+                                            <p>2015</p>
+                                            <ul>
+                                                <li>I was first introduced to Bitcoin by a friend, and not being technical, I dismissed the idea without much investigation.</li>
+                                            </ul>
+                                            <p>2016</p>
+                                            <ul>
+                                                <li>I took 2 coding bootcamps and fell in love.</li>
+                                            </ul>
+                                            <p>2017 - 2018</p>
+                                            <ul>
+                                                <li>I became re-aware of blockchains and cryptocurrencies via the ICO boom.</li>
+                                                <li>I took online courses about blockchains and cryptocurrencies.</li>
+                                                <li>I began experimenting with Bitcoin, Ethereum, etc. from a financial perspective.</li>
+                                                <li>I worked full time in digital marketing.</li>
+                                                <li>I started part-time courses at Georgia State to get a CS degree.</li>
+                                            </ul>
+                                            <p>2019</p>
+                                            <ul>
+                                                <li>I quit my job and went to school at Georgia State full time for a CS degree.</li>
+                                                <li>I graduated in Dec 2019 after 1 year of courses.</li>
+                                            </ul>
+                                            <p>2020</p>
+                                            <ul>
+                                                <li>I accpeted at role at NCR Corporation in the Innovation Lab as a Software Engineer.</li>
+                                                <li>I did research & development specializing in blockchain technology to build products for customers.</li>
+                                                <li>I used Hyperledger Indy to build a decentralized identity system and Ethereum to build a proof-of-concept cryptocurrency system on testnet.</li>
+                                            </ul>
+                                            <p>2021</p>
+                                            <ul>
+                                                <li>I shifted focus to the Bitcoin and the Lightning Network.</li>
+                                                <li>I read Mastering Lightning and built a Lightning node for the Lab and for myself.</li>
+                                                <li>I used OpenNode & Strike to build a proof of concept integrating Lightning payments into an internally facing NCR checkout system.</li>
+                                            </ul>
+                                            <p>Nov 2021 - Present</p>
+                                            <ul>
+                                                <li>I work on the LibertyPay application stack.</li>
+                                                <li>LibertyPay enables faster, cheaper remittances by leveraging on-chain Bitcoin as the settlement layer.</li>
+                                                <li>LibertyPay sends from the US to Brazil, Dominican Republic, Portugal and Guatemala.</li>
+                                                <li>I am currently building a mobile application (iOS & Android).</li>
+                                                <li>The new mobile app will allow the LibertyPay business to scale transactions direct to consumers.</li>
+                                            </ul>
                                         </p>
                                     </div>
                                 </div>
@@ -107,25 +101,8 @@ export const About = () => {
                                     <i className="icon-bulb" />
                                 </span>
                                 <div className="desc">
-                                    <h3>Front End Web Development</h3>
-                                    <p>
-                                        JavaScript • TypeScript • React-Native •
-                                        NextJS • ReactJS • Angular • HTML • CSS
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-4 text-center animate-box">
-                            <div className="services color-3">
-                                <span className="icon">
-                                    <i className="icon-phone3" />
-                                </span>
-                                <div className="desc">
-                                    <h3>Backend Web Development</h3>
-                                    <p>
-                                        Node • ExpressJS • MongoDB • NextJS •
-                                        Bash • Nginx • Linux • Ubuntu
-                                    </p>
+                                    <h3>Languages & Frameworks</h3>
+                                    <p>HTML • CSS • JavaScript • NodeJS • ExpressJS • TypeScript • ReactJS • NextJS • Shell • Python • Rust • React-Native • Flutter</p>
                                 </div>
                             </div>
                         </div>
@@ -135,11 +112,10 @@ export const About = () => {
                                     <i className="icon-data" />
                                 </span>
                                 <div className="desc">
-                                    <h3>Blockchain / DLT</h3>
-                                    <p>
-                                        Bitcoin • Bitcoin Core • Lightning • LND
-                                        • CLN • LDK • Bolt12 • Taro • LNURL •
-                                        Polar • DID • SSI • Web5
+                                    <h3>Bitcoin & DID</h3>
+                                    <p>Bitcoin Core • LND • CLN • LDK • Bolt12 • Taro • LNURL • Polar • Web5
+                                    <br />
+                                    <br />
                                     </p>
                                 </div>
                             </div>
@@ -150,58 +126,8 @@ export const About = () => {
                                     <i className="icon-data" />
                                 </span>
                                 <div className="desc">
-                                    <h3>Programming Languages</h3>
-                                    <p>
-                                        JavaScript • TypeScript • NodeJS •
-                                        Python
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-4 text-center animate-box">
-                            <div className="services color-6">
-                                <span className="icon">
-                                    <i className="icon-phone3" />
-                                </span>
-                                <div className="desc">
-                                    <h3>Cloud, Dev Ops, DB</h3>
-                                    <p>
-                                        SQL • Postgres • Mongo • Docker • Git •
-                                        Git Actions • DigitalOcean • GCP • AWS •
-                                        Nginx
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-4 text-center animate-box">
-                            <div className="services color-4">
-                                <span className="icon">
-                                    <i className="icon-layers2" />
-                                </span>
-                                <div className="desc">
-                                    <h3>Intellectual Property</h3>
-                                    <p>
-                                        Self-Sovereign Identity Verifiable
-                                        Credentials for Consent Processing. No.
-                                        17/162,663, January 29, 2021.
-                                        <br />
-                                        <br />
-                                        Interfaces and Techniques for Secure
-                                        Transaction Funding. No. 17/488,828,
-                                        September 29, 2021.
-                                        <br />
-                                        <br />
-                                        Personal Identifiable Information
-                                        Verification for Decentralized Network
-                                        Services. No. 17/725,682, April, 21,
-                                        2022.
-                                        <br />
-                                        <br />
-                                        Self-Sovereign Identity Structured
-                                        Messaging for Cross Channel
-                                        Authentication. No. 17/162,663, April
-                                        28, 2022
-                                    </p>
+                                    <h3>Cloud, SysAdmin, DevOps, DB</h3>
+                                    <p>DigitalOcean • GCP • AWS • Linux • Ubuntu • Fedora • Nginx • Docker • Git • Git Actions • MongoDB • SQL • Postgres • Redis • Docker • Git</p>
                                 </div>
                             </div>
                         </div>
