@@ -25,3 +25,5 @@ yarn-error.log*
 Dockerfile
 
 nginx-conf/
+
+bwn-server/.git
