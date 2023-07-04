@@ -16,20 +16,13 @@
     "yarn": "^1.13.0"
   },
   "scripts": {
-    "dev": "concurrently --kill-others yarn:dev:*",
-    "dev:frontend": "PORT=8081 react-scripts start",
-    "dev:backend": "cd dwn-server && npm run server",
-    "setup": "yarn && cd dwn-server && npm i && cd .. && echo 'ready for build'",
-    "build": "concurrently yarn:build:*",
-    "build:frontend": "react-scripts build",
-    "build:backend": "cd dwn-server && npm run compile",
-    "start": "concurrently --kill-others yarn:prod:*",
-    "prod:frontend": "PORT=8080 react-scripts start",
-    "prod:backend": "cd dwn-server && npm run server",
-    "predeploy": "yarn run build",
-    "deploy": "echo TODO",
+    "dev": "PORT=8081 react-scripts start",
+    "build": "react-scripts build",
+    "start": "PORT=8080 react-scripts start",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "echo TODO"
   },
   "eslintConfig": {
     "extends": "react-app"
