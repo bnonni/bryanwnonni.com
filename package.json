@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "@tbd54566975/web5": "^0.7.8",
+    "concurrently": "^8.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-loading": "^2.0.3",
@@ -16,20 +17,20 @@
     "yarn": "^1.13.0"
   },
   "scripts": {
-    "start": "concurrently --kill-others yarn:prod:*",
-    "prod:frontend": "PORT=8080 react-scripts start",
-    "prod:backend": "cd bwn-server && npm run server",
     "dev": "concurrently --kill-others yarn:dev:*",
     "dev:frontend": "PORT=8081 react-scripts start",
-    "dev:backend": "cd bwn-server && npm run server",
-    "build": "concurrently --kill-others yarn:build:*",
+    "dev:backend": "cd dwn-server && npm run server",
+    "setup": "yarn && cd dwn-server && npm i && cd .. && echo 'ready for build'",
+    "build": "concurrently yarn:build:*",
     "build:frontend": "react-scripts build",
-    "build:backend": "cd bwn-server && npm run server",
+    "build:backend": "cd dwn-server && npm run compile",
+    "start": "concurrently --kill-others yarn:prod:*",
+    "prod:frontend": "PORT=8080 react-scripts start",
+    "prod:backend": "cd dwn-server && npm run server",
     "predeploy": "yarn run build",
-    "deploy": "gh pages -d build",
+    "deploy": "echo TODO",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-
   },
   "eslintConfig": {
     "extends": "react-app"
